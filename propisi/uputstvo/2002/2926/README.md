@@ -1,0 +1,13 @@
+# Упутство о подношењу и попуњавању података у пореској пријави за приход од пољопривреде и шумарства (ПП-ППШ)
+
+Наслов: Упутство о подношењу и попуњавању података у пореској пријави за приход од пољопривреде и шумарства (ПП-ППШ)
+
+Врста: Упутство. Доносилац: Пореска управа Републике Српске.
+
+Датум усвајања (eRP): 2002-07-19. Објављено: Službeni glasnik Republike Srpske 47/2002 (2002-08-05).
+
+Статус у регистру на дан 2026-11-15: Aktivan.
+
+Службени запис (ELI): <https://erp.slglasnik.org/erp/slglasnik.org/rs/sgrs/poreska-uprava-republike-srpske/uputstvo/2016/47/2926>
+
+Metadata record from the official eRP register; the register serves the text to subscribers only.
