@@ -1,0 +1,13 @@
+# Упутство о садржају и начину попуњавања обрасца "Завршни извјештај"
+
+Наслов: Упутство о садржају и начину попуњавања обрасца "Завршни извјештај"
+
+Врста: Упутство. Доносилац: Министарство финансија.
+
+Датум усвајања (eRP): 2008-02-18. Објављено: Službeni glasnik Republike Srpske 19/2008 (2008-02-29).
+
+Статус у регистру на дан 2026-11-15: Aktivan.
+
+Службени запис (ELI): <https://erp.slglasnik.org/erp/slglasnik.org/rs/sgrs/ministarstvo-finansija/uputstvo/2016/19/338>
+
+Metadata record from the official eRP register; the register serves the text to subscribers only.
