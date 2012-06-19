@@ -1,0 +1,497 @@
+# Закон о кривичном поступку Републике Српске
+
+Закон о кривичном поступку Републике Српске · 1 versions, from 2012-06-19 (latest in force: 2012-06-19) · <https://www.narodnaskupstinars.net/ci/akti/usvojeni-zakoni/zakon-o-krivicnom-postupku-republike-srpske>
+
+| Provision | File | Changes | Last changed |
+| --- | --- | ---: | --- |
+| ДИО ПРВИ | [0-heading-1.md](0-heading-1.md) | 0 |  |
+| I ОСНОВНЕ ОДРЕДБЕ | [0-heading-2.md](0-heading-2.md) | 0 |  |
+| Члан 1. | [clan-001.md](clan-001.md) | 0 |  |
+| Члан 2. | [clan-002.md](clan-002.md) | 0 |  |
+| Члан 3. | [clan-003.md](clan-003.md) | 0 |  |
+| Члан 4. | [clan-004.md](clan-004.md) | 0 |  |
+| Члан 5. | [clan-005.md](clan-005.md) | 0 |  |
+| Члан 6. | [clan-006.md](clan-006.md) | 0 |  |
+| Члан 7. | [clan-007.md](clan-007.md) | 0 |  |
+| Члан 8. | [clan-008.md](clan-008.md) | 0 |  |
+| Члан 9. | [clan-009.md](clan-009.md) | 0 |  |
+| Члан 10. | [clan-010.md](clan-010.md) | 0 |  |
+| Члан 11. | [clan-011.md](clan-011.md) | 0 |  |
+| Члан 12. | [clan-012.md](clan-012.md) | 0 |  |
+| Члан 13. | [clan-013.md](clan-013.md) | 0 |  |
+| Члан 14. | [clan-014.md](clan-014.md) | 0 |  |
+| Члан 15. | [clan-015.md](clan-015.md) | 0 |  |
+| Члан 16. | [clan-016.md](clan-016.md) | 0 |  |
+| Члан 17. | [clan-017.md](clan-017.md) | 0 |  |
+| Члан 18. | [clan-018.md](clan-018.md) | 0 |  |
+| Члан 19. | [clan-019.md](clan-019.md) | 0 |  |
+| Члан 20. | [clan-020.md](clan-020.md) | 0 |  |
+| Члан 21. | [clan-021.md](clan-021.md) | 0 |  |
+| Члан 22. | [clan-022.md](clan-022.md) | 0 |  |
+| II НАДЛЕЖНОСТ СУДА | [clan-022-zz-heading-1.md](clan-022-zz-heading-1.md) | 0 |  |
+| Члан 23. | [clan-023.md](clan-023.md) | 0 |  |
+| Члан 24. | [clan-024.md](clan-024.md) | 0 |  |
+| Члан 25. | [clan-025.md](clan-025.md) | 0 |  |
+| Члан 26. | [clan-026.md](clan-026.md) | 0 |  |
+| Члан 27. | [clan-027.md](clan-027.md) | 0 |  |
+| Члан 28. | [clan-028.md](clan-028.md) | 0 |  |
+| Члан 29. | [clan-029.md](clan-029.md) | 0 |  |
+| Члан 30. | [clan-030.md](clan-030.md) | 0 |  |
+| Члан 31. | [clan-031.md](clan-031.md) | 0 |  |
+| Члан 32. | [clan-032.md](clan-032.md) | 0 |  |
+| Члан 33. | [clan-033.md](clan-033.md) | 0 |  |
+| Члан 34. | [clan-034.md](clan-034.md) | 0 |  |
+| Члан 35. | [clan-035.md](clan-035.md) | 0 |  |
+| Члан 36. | [clan-036.md](clan-036.md) | 0 |  |
+| III ИЗУЗЕЋЕ | [clan-036-zz-heading-1.md](clan-036-zz-heading-1.md) | 0 |  |
+| Члан 37. | [clan-037.md](clan-037.md) | 0 |  |
+| Члан 38. | [clan-038.md](clan-038.md) | 0 |  |
+| Члан 39. | [clan-039.md](clan-039.md) | 0 |  |
+| Члан 40. | [clan-040.md](clan-040.md) | 0 |  |
+| Члан 41. | [clan-041.md](clan-041.md) | 0 |  |
+| Члан 42. | [clan-042.md](clan-042.md) | 0 |  |
+| IV ТУЖИЛАЦ | [clan-042-zz-heading-1.md](clan-042-zz-heading-1.md) | 0 |  |
+| Члан 43. | [clan-043.md](clan-043.md) | 0 |  |
+| Члан 44. | [clan-044.md](clan-044.md) | 0 |  |
+| Члан 45. | [clan-045.md](clan-045.md) | 0 |  |
+| Члан 46. | [clan-046.md](clan-046.md) | 0 |  |
+| V БРАНИЛАЦ | [clan-046-zz-heading-1.md](clan-046-zz-heading-1.md) | 0 |  |
+| Члан 47. | [clan-047.md](clan-047.md) | 0 |  |
+| Члан 48. | [clan-048.md](clan-048.md) | 0 |  |
+| Члан 49. | [clan-049.md](clan-049.md) | 0 |  |
+| Члан 50. | [clan-050.md](clan-050.md) | 0 |  |
+| Члан 51. | [clan-051.md](clan-051.md) | 0 |  |
+| Члан 52. | [clan-052.md](clan-052.md) | 0 |  |
+| Члан 53. | [clan-053.md](clan-053.md) | 0 |  |
+| Члан 54. | [clan-054.md](clan-054.md) | 0 |  |
+| Члан 55. | [clan-055.md](clan-055.md) | 0 |  |
+| Члан 56. | [clan-056.md](clan-056.md) | 0 |  |
+| Члан 57. | [clan-057.md](clan-057.md) | 0 |  |
+| Члан 58. | [clan-058.md](clan-058.md) | 0 |  |
+| VI ПОДНЕСЦИ И ЗАПИСНИЦИ | [clan-058-zz-heading-1.md](clan-058-zz-heading-1.md) | 0 |  |
+| Члан 59. | [clan-059.md](clan-059.md) | 0 |  |
+| Члан 60. | [clan-060.md](clan-060.md) | 0 |  |
+| Члан 61. | [clan-061.md](clan-061.md) | 0 |  |
+| Члан 62. | [clan-062.md](clan-062.md) | 0 |  |
+| Члан 63. | [clan-063.md](clan-063.md) | 0 |  |
+| Члан 64. | [clan-064.md](clan-064.md) | 0 |  |
+| Члан 65. | [clan-065.md](clan-065.md) | 0 |  |
+| Члан 66. | [clan-066.md](clan-066.md) | 0 |  |
+| Члан 67. | [clan-067.md](clan-067.md) | 0 |  |
+| Члан 68. | [clan-068.md](clan-068.md) | 0 |  |
+| VII РОКОВИ | [clan-068-zz-heading-1.md](clan-068-zz-heading-1.md) | 0 |  |
+| Члан 69. | [clan-069.md](clan-069.md) | 0 |  |
+| Члан 70. | [clan-070.md](clan-070.md) | 0 |  |
+| Члан 71. | [clan-071.md](clan-071.md) | 0 |  |
+| Члан 72. | [clan-072.md](clan-072.md) | 0 |  |
+| Члан 73. | [clan-073.md](clan-073.md) | 0 |  |
+| VIII ДОНОШЕЊЕ И САОПШТАВАЊЕ ОДЛУКА | [clan-073-zz-heading-1.md](clan-073-zz-heading-1.md) | 0 |  |
+| Члан 74. | [clan-074.md](clan-074.md) | 0 |  |
+| Члан 75. | [clan-075.md](clan-075.md) | 0 |  |
+| Члан 76. | [clan-076.md](clan-076.md) | 0 |  |
+| Члан 77. | [clan-077.md](clan-077.md) | 0 |  |
+| Члан 78. | [clan-078.md](clan-078.md) | 0 |  |
+| IX ДОСТАВЉАЊЕ ПИСМЕНА И РАЗМАТРАЊЕ СПИСА | [clan-078-zz-heading-1.md](clan-078-zz-heading-1.md) | 0 |  |
+| Члан 79. | [clan-079.md](clan-079.md) | 0 |  |
+| Члан 80. | [clan-080.md](clan-080.md) | 0 |  |
+| Члан 81. | [clan-081.md](clan-081.md) | 0 |  |
+| Члан 82. | [clan-082.md](clan-082.md) | 0 |  |
+| Члан 83. | [clan-083.md](clan-083.md) | 0 |  |
+| Члан 84. | [clan-084.md](clan-084.md) | 0 |  |
+| Члан 85. | [clan-085.md](clan-085.md) | 0 |  |
+| Члан 86. | [clan-086.md](clan-086.md) | 0 |  |
+| Члан 87. | [clan-087.md](clan-087.md) | 0 |  |
+| Члан 88. | [clan-088.md](clan-088.md) | 0 |  |
+| X ИЗВРШЕЊЕ ОДЛУКА | [clan-088-zz-heading-1.md](clan-088-zz-heading-1.md) | 0 |  |
+| Члан 89. | [clan-089.md](clan-089.md) | 0 |  |
+| Члан 90. | [clan-090.md](clan-090.md) | 0 |  |
+| Члан 91. | [clan-091.md](clan-091.md) | 0 |  |
+| Члан 92. | [clan-092.md](clan-092.md) | 0 |  |
+| Члан 93. | [clan-093.md](clan-093.md) | 0 |  |
+| Члан 94. | [clan-094.md](clan-094.md) | 0 |  |
+| Члан 95. | [clan-095.md](clan-095.md) | 0 |  |
+| XI ТРОШКОВИ КРИВИЧНОГ ПОСТУПКА | [clan-095-zz-heading-1.md](clan-095-zz-heading-1.md) | 0 |  |
+| Члан 96. | [clan-096.md](clan-096.md) | 0 |  |
+| Члан 97. | [clan-097.md](clan-097.md) | 0 |  |
+| Члан 98. | [clan-098.md](clan-098.md) | 0 |  |
+| Члан 99. | [clan-099.md](clan-099.md) | 0 |  |
+| Члан 100. | [clan-100.md](clan-100.md) | 0 |  |
+| Члан 101. | [clan-101.md](clan-101.md) | 0 |  |
+| Члан 102. | [clan-102.md](clan-102.md) | 0 |  |
+| XII ИМОВИНСКОПРАВНИ ЗАХТЈЕВИ | [clan-102-zz-heading-1.md](clan-102-zz-heading-1.md) | 0 |  |
+| Члан 103. | [clan-103.md](clan-103.md) | 0 |  |
+| Члан 104. | [clan-104.md](clan-104.md) | 0 |  |
+| Члан 105. | [clan-105.md](clan-105.md) | 0 |  |
+| Члан 106. | [clan-106.md](clan-106.md) | 0 |  |
+| Члан 107. | [clan-107.md](clan-107.md) | 0 |  |
+| Члан 108. | [clan-108.md](clan-108.md) | 0 |  |
+| Члан 109. | [clan-109.md](clan-109.md) | 0 |  |
+| Члан 110. | [clan-110.md](clan-110.md) | 0 |  |
+| Члан 111. | [clan-111.md](clan-111.md) | 0 |  |
+| Члан 112. | [clan-112.md](clan-112.md) | 0 |  |
+| Члан 113. | [clan-113.md](clan-113.md) | 0 |  |
+| Члан 114. | [clan-114.md](clan-114.md) | 0 |  |
+| XIII РАДЊЕ ДОКАЗИВАЊА | [clan-114-zz-heading-1.md](clan-114-zz-heading-1.md) | 0 |  |
+| Члан 115. | [clan-115.md](clan-115.md) | 0 |  |
+| Члан 116. | [clan-116.md](clan-116.md) | 0 |  |
+| Члан 117. | [clan-117.md](clan-117.md) | 0 |  |
+| Члан 118. | [clan-118.md](clan-118.md) | 0 |  |
+| Члан 119. | [clan-119.md](clan-119.md) | 0 |  |
+| Члан 120. | [clan-120.md](clan-120.md) | 0 |  |
+| Члан 121. | [clan-121.md](clan-121.md) | 0 |  |
+| Члан 122. | [clan-122.md](clan-122.md) | 0 |  |
+| Члан 123. | [clan-123.md](clan-123.md) | 0 |  |
+| Члан 124. | [clan-124.md](clan-124.md) | 0 |  |
+| Члан 125. | [clan-125.md](clan-125.md) | 0 |  |
+| Члан 126. | [clan-126.md](clan-126.md) | 0 |  |
+| Члан 127. | [clan-127.md](clan-127.md) | 0 |  |
+| Члан 128. | [clan-128.md](clan-128.md) | 0 |  |
+| Члан 129. | [clan-129.md](clan-129.md) | 0 |  |
+| Члан 130. | [clan-130.md](clan-130.md) | 0 |  |
+| Члан 131. | [clan-131.md](clan-131.md) | 0 |  |
+| Члан 132. | [clan-132.md](clan-132.md) | 0 |  |
+| Члан 133. | [clan-133.md](clan-133.md) | 0 |  |
+| Члан 134. | [clan-134.md](clan-134.md) | 0 |  |
+| Члан 135. | [clan-135.md](clan-135.md) | 0 |  |
+| Члан 136. | [clan-136.md](clan-136.md) | 0 |  |
+| Члан 137. | [clan-137.md](clan-137.md) | 0 |  |
+| Члан 138. | [clan-138.md](clan-138.md) | 0 |  |
+| Члан 139. | [clan-139.md](clan-139.md) | 0 |  |
+| Члан 140. | [clan-140.md](clan-140.md) | 0 |  |
+| Члан 141. | [clan-141.md](clan-141.md) | 0 |  |
+| Члан 142. | [clan-142.md](clan-142.md) | 0 |  |
+| Члан 143. | [clan-143.md](clan-143.md) | 0 |  |
+| Члан 144. | [clan-144.md](clan-144.md) | 0 |  |
+| Члан 145. | [clan-145.md](clan-145.md) | 0 |  |
+| Члан 146. | [clan-146.md](clan-146.md) | 0 |  |
+| Члан 147. | [clan-147.md](clan-147.md) | 0 |  |
+| Члан 148. | [clan-148.md](clan-148.md) | 0 |  |
+| Члан 149. | [clan-149.md](clan-149.md) | 0 |  |
+| Члан 150. | [clan-150.md](clan-150.md) | 0 |  |
+| Члан 151. | [clan-151.md](clan-151.md) | 0 |  |
+| Члан 152. | [clan-152.md](clan-152.md) | 0 |  |
+| Члан 153. | [clan-153.md](clan-153.md) | 0 |  |
+| Члан 154. | [clan-154.md](clan-154.md) | 0 |  |
+| Члан 155. | [clan-155.md](clan-155.md) | 0 |  |
+| Члан 156. | [clan-156.md](clan-156.md) | 0 |  |
+| Члан 157. | [clan-157.md](clan-157.md) | 0 |  |
+| Члан 158. | [clan-158.md](clan-158.md) | 0 |  |
+| Члан 159. | [clan-159.md](clan-159.md) | 0 |  |
+| Члан 160. | [clan-160.md](clan-160.md) | 0 |  |
+| Члан 161. | [clan-161.md](clan-161.md) | 0 |  |
+| Члан 162. | [clan-162.md](clan-162.md) | 0 |  |
+| Члан 163. | [clan-163.md](clan-163.md) | 0 |  |
+| Члан 164. | [clan-164.md](clan-164.md) | 0 |  |
+| Члан 165. | [clan-165.md](clan-165.md) | 0 |  |
+| Члан 166. | [clan-166.md](clan-166.md) | 0 |  |
+| Члан 167. | [clan-167.md](clan-167.md) | 0 |  |
+| Члан 168. | [clan-168.md](clan-168.md) | 0 |  |
+| Члан 169. | [clan-169.md](clan-169.md) | 0 |  |
+| Члан 170. | [clan-170.md](clan-170.md) | 0 |  |
+| Члан 171. | [clan-171.md](clan-171.md) | 0 |  |
+| Члан 172. | [clan-172.md](clan-172.md) | 0 |  |
+| Члан 173. | [clan-173.md](clan-173.md) | 0 |  |
+| Члан 174. | [clan-174.md](clan-174.md) | 0 |  |
+| Члан 175. | [clan-175.md](clan-175.md) | 0 |  |
+| Члан 176. | [clan-176.md](clan-176.md) | 0 |  |
+| Члан 177. | [clan-177.md](clan-177.md) | 0 |  |
+| Члан 178. | [clan-178.md](clan-178.md) | 0 |  |
+| Члан 179. | [clan-179.md](clan-179.md) | 0 |  |
+| Члан 180. | [clan-180.md](clan-180.md) | 0 |  |
+| XIV МЈЕРЕ ЗА ОБЕЗБЈЕЂЕЊЕ ПРИСУСТВА ОСУМЊИЧЕНОГ, ОДНОСНО ОПТУЖЕНОГ И УСПЈЕШНО ВОЂЕЊЕ КРИВИЧНОГ ПОСТУПКА | [clan-180-zz-heading-1.md](clan-180-zz-heading-1.md) | 0 |  |
+| Члан 181. | [clan-181.md](clan-181.md) | 0 |  |
+| Члан 182. | [clan-182.md](clan-182.md) | 0 |  |
+| Члан 183. | [clan-183.md](clan-183.md) | 0 |  |
+| Члан 184. | [clan-184.md](clan-184.md) | 0 |  |
+| Члан 185. | [clan-185.md](clan-185.md) | 0 |  |
+| Члан 186. | [clan-186.md](clan-186.md) | 0 |  |
+| Члан 187. | [clan-187.md](clan-187.md) | 0 |  |
+| Члан 188. | [clan-188.md](clan-188.md) | 0 |  |
+| Члан 189. | [clan-189.md](clan-189.md) | 0 |  |
+| Члан 190. | [clan-190.md](clan-190.md) | 0 |  |
+| Члан 191. | [clan-191.md](clan-191.md) | 0 |  |
+| Члан 192. | [clan-192.md](clan-192.md) | 0 |  |
+| Члан 193. | [clan-193.md](clan-193.md) | 0 |  |
+| Члан 194. | [clan-194.md](clan-194.md) | 0 |  |
+| Члан 195. | [clan-195.md](clan-195.md) | 0 |  |
+| Члан 196. | [clan-196.md](clan-196.md) | 0 |  |
+| Члан 197. | [clan-197.md](clan-197.md) | 0 |  |
+| Члан 198. | [clan-198.md](clan-198.md) | 0 |  |
+| Члан 199. | [clan-199.md](clan-199.md) | 0 |  |
+| Члан 200. | [clan-200.md](clan-200.md) | 0 |  |
+| Члан 201. | [clan-201.md](clan-201.md) | 0 |  |
+| Члан 202. | [clan-202.md](clan-202.md) | 0 |  |
+| Члан 203. | [clan-203.md](clan-203.md) | 0 |  |
+| Члан 204. | [clan-204.md](clan-204.md) | 0 |  |
+| Члан 205. | [clan-205.md](clan-205.md) | 0 |  |
+| Члан 206. | [clan-206.md](clan-206.md) | 0 |  |
+| Члан 207. | [clan-207.md](clan-207.md) | 0 |  |
+| Члан 208. | [clan-208.md](clan-208.md) | 0 |  |
+| Члан 209. | [clan-209.md](clan-209.md) | 0 |  |
+| Члан 210. | [clan-210.md](clan-210.md) | 0 |  |
+| Члан 211. | [clan-211.md](clan-211.md) | 0 |  |
+| Члан 212. | [clan-212.md](clan-212.md) | 0 |  |
+| XV ОСТАЛЕ ОДРЕДБЕ | [clan-212-zz-heading-1.md](clan-212-zz-heading-1.md) | 0 |  |
+| Члан 213. | [clan-213.md](clan-213.md) | 0 |  |
+| Члан 214. | [clan-214.md](clan-214.md) | 0 |  |
+| Члан 215. | [clan-215.md](clan-215.md) | 0 |  |
+| Члан 216. | [clan-216.md](clan-216.md) | 0 |  |
+| Члан 217. | [clan-217.md](clan-217.md) | 0 |  |
+| Члан 218. | [clan-218.md](clan-218.md) | 0 |  |
+| Члан 219. | [clan-219.md](clan-219.md) | 0 |  |
+| Члан 220. | [clan-220.md](clan-220.md) | 0 |  |
+| ДИО ДРУГИ | [clan-220-zz-heading-1.md](clan-220-zz-heading-1.md) | 0 |  |
+| ТОК ПОСТУПКА | [clan-220-zz-heading-2.md](clan-220-zz-heading-2.md) | 0 |  |
+| XVI ИСТРАГА | [clan-220-zz-heading-3.md](clan-220-zz-heading-3.md) | 0 |  |
+| Члан 221. | [clan-221.md](clan-221.md) | 0 |  |
+| Члан 222. | [clan-222.md](clan-222.md) | 0 |  |
+| Члан 223. | [clan-223.md](clan-223.md) | 0 |  |
+| Члан 224. | [clan-224.md](clan-224.md) | 0 |  |
+| Члан 225. | [clan-225.md](clan-225.md) | 0 |  |
+| Члан 226. | [clan-226.md](clan-226.md) | 0 |  |
+| Члан 227. | [clan-227.md](clan-227.md) | 0 |  |
+| Члан 228. | [clan-228.md](clan-228.md) | 0 |  |
+| Члан 229. | [clan-229.md](clan-229.md) | 0 |  |
+| Члан 230. | [clan-230.md](clan-230.md) | 0 |  |
+| Члан 231. | [clan-231.md](clan-231.md) | 0 |  |
+| Члан 232. | [clan-232.md](clan-232.md) | 0 |  |
+| Члан 233. | [clan-233.md](clan-233.md) | 0 |  |
+| XVII ПОСЕБНЕ ИСТРАЖНЕ РАДЊЕ | [clan-233-zz-heading-1.md](clan-233-zz-heading-1.md) | 0 |  |
+| Члан 234. | [clan-234.md](clan-234.md) | 0 |  |
+| Члан 235. | [clan-235.md](clan-235.md) | 0 |  |
+| Члан 236. | [clan-236.md](clan-236.md) | 0 |  |
+| Члан 237. | [clan-237.md](clan-237.md) | 0 |  |
+| Члан 238. | [clan-238.md](clan-238.md) | 0 |  |
+| Члан 239. | [clan-239.md](clan-239.md) | 0 |  |
+| Члан 240. | [clan-240.md](clan-240.md) | 0 |  |
+| XVIII ПОСТУПАК ОПТУЖЕЊА | [clan-240-zz-heading-1.md](clan-240-zz-heading-1.md) | 0 |  |
+| Члан 241. | [clan-241.md](clan-241.md) | 0 |  |
+| Члан 242. | [clan-242.md](clan-242.md) | 0 |  |
+| Члан 243. | [clan-243.md](clan-243.md) | 0 |  |
+| Члан 244. | [clan-244.md](clan-244.md) | 0 |  |
+| Члан 245. | [clan-245.md](clan-245.md) | 0 |  |
+| Члан 246. | [clan-246.md](clan-246.md) | 0 |  |
+| Члан 247. | [clan-247.md](clan-247.md) | 0 |  |
+| Члан 248. | [clan-248.md](clan-248.md) | 0 |  |
+| Члан 249. | [clan-249.md](clan-249.md) | 0 |  |
+| ДИО ТРЕЋИ | [clan-249-zz-heading-1.md](clan-249-zz-heading-1.md) | 0 |  |
+| XIX ГЛАВНИ ПРЕТРЕС | [clan-249-zz-heading-2.md](clan-249-zz-heading-2.md) | 0 |  |
+| Члан 250. | [clan-250.md](clan-250.md) | 0 |  |
+| Члан 251. | [clan-251.md](clan-251.md) | 0 |  |
+| Члан 252. | [clan-252.md](clan-252.md) | 0 |  |
+| Члан 253. | [clan-253.md](clan-253.md) | 0 |  |
+| Члан 254. | [clan-254.md](clan-254.md) | 0 |  |
+| Члан 255. | [clan-255.md](clan-255.md) | 0 |  |
+| Члан 256. | [clan-256.md](clan-256.md) | 0 |  |
+| Члан 257. | [clan-257.md](clan-257.md) | 0 |  |
+| Члан 258. | [clan-258.md](clan-258.md) | 0 |  |
+| Члан 259. | [clan-259.md](clan-259.md) | 0 |  |
+| Члан 260. | [clan-260.md](clan-260.md) | 0 |  |
+| Члан 261. | [clan-261.md](clan-261.md) | 0 |  |
+| Члан 262. | [clan-262.md](clan-262.md) | 0 |  |
+| Члан 263. | [clan-263.md](clan-263.md) | 0 |  |
+| Члан 264. | [clan-264.md](clan-264.md) | 0 |  |
+| Члан 265. | [clan-265.md](clan-265.md) | 0 |  |
+| Члан 266. | [clan-266.md](clan-266.md) | 0 |  |
+| Члан 267. | [clan-267.md](clan-267.md) | 0 |  |
+| Члан 268. | [clan-268.md](clan-268.md) | 0 |  |
+| Члан 269. | [clan-269.md](clan-269.md) | 0 |  |
+| Члан 270. | [clan-270.md](clan-270.md) | 0 |  |
+| Члан 271. | [clan-271.md](clan-271.md) | 0 |  |
+| Члан 272. | [clan-272.md](clan-272.md) | 0 |  |
+| Члан 273. | [clan-273.md](clan-273.md) | 0 |  |
+| Члан 274. | [clan-274.md](clan-274.md) | 0 |  |
+| Члан 275. | [clan-275.md](clan-275.md) | 0 |  |
+| Члан 276. | [clan-276.md](clan-276.md) | 0 |  |
+| Члан 277. | [clan-277.md](clan-277.md) | 0 |  |
+| Члан 278. | [clan-278.md](clan-278.md) | 0 |  |
+| Члан 279. | [clan-279.md](clan-279.md) | 0 |  |
+| Члан 280. | [clan-280.md](clan-280.md) | 0 |  |
+| Члан 281. | [clan-281.md](clan-281.md) | 0 |  |
+| Члан 282. | [clan-282.md](clan-282.md) | 0 |  |
+| Члан 283. | [clan-283.md](clan-283.md) | 0 |  |
+| Члан 284. | [clan-284.md](clan-284.md) | 0 |  |
+| Члан 285. | [clan-285.md](clan-285.md) | 0 |  |
+| Члан 286. | [clan-286.md](clan-286.md) | 0 |  |
+| Члан 287. | [clan-287.md](clan-287.md) | 0 |  |
+| Члан 288. | [clan-288.md](clan-288.md) | 0 |  |
+| Члан 289. | [clan-289.md](clan-289.md) | 0 |  |
+| Члан 290. | [clan-290.md](clan-290.md) | 0 |  |
+| Члан 291. | [clan-291.md](clan-291.md) | 0 |  |
+| Члан 292. | [clan-292.md](clan-292.md) | 0 |  |
+| XX ПРЕСУДА | [clan-292-zz-heading-1.md](clan-292-zz-heading-1.md) | 0 |  |
+| Члан 293. | [clan-293.md](clan-293.md) | 0 |  |
+| Члан 294. | [clan-294.md](clan-294.md) | 0 |  |
+| Члан 295. | [clan-295.md](clan-295.md) | 0 |  |
+| Члан 296. | [clan-296.md](clan-296.md) | 0 |  |
+| Члан 297. | [clan-297.md](clan-297.md) | 0 |  |
+| Члан 298. | [clan-298.md](clan-298.md) | 0 |  |
+| Члан 299. | [clan-299.md](clan-299.md) | 0 |  |
+| Члан 300. | [clan-300.md](clan-300.md) | 0 |  |
+| Члан 301. | [clan-301.md](clan-301.md) | 0 |  |
+| Члан 302. | [clan-302.md](clan-302.md) | 0 |  |
+| Члан 303. | [clan-303.md](clan-303.md) | 0 |  |
+| Члан 304. | [clan-304.md](clan-304.md) | 0 |  |
+| Члан 305. | [clan-305.md](clan-305.md) | 0 |  |
+| XXI РЕДОВНИ ПРАВНИ ЛИЈЕКОВИ | [clan-305-zz-heading-1.md](clan-305-zz-heading-1.md) | 0 |  |
+| Члан 306. | [clan-306.md](clan-306.md) | 0 |  |
+| Члан 307. | [clan-307.md](clan-307.md) | 0 |  |
+| Члан 308. | [clan-308.md](clan-308.md) | 0 |  |
+| Члан 309. | [clan-309.md](clan-309.md) | 0 |  |
+| Члан 310. | [clan-310.md](clan-310.md) | 0 |  |
+| Члан 311. | [clan-311.md](clan-311.md) | 0 |  |
+| Члан 312. | [clan-312.md](clan-312.md) | 0 |  |
+| Члан 313. | [clan-313.md](clan-313.md) | 0 |  |
+| Члан 314. | [clan-314.md](clan-314.md) | 0 |  |
+| Члан 315. | [clan-315.md](clan-315.md) | 0 |  |
+| Члан 316. | [clan-316.md](clan-316.md) | 0 |  |
+| Члан 317. | [clan-317.md](clan-317.md) | 0 |  |
+| Члан 318. | [clan-318.md](clan-318.md) | 0 |  |
+| Члан 319. | [clan-319.md](clan-319.md) | 0 |  |
+| Члан 320. | [clan-320.md](clan-320.md) | 0 |  |
+| Члан 321. | [clan-321.md](clan-321.md) | 0 |  |
+| Члан 322. | [clan-322.md](clan-322.md) | 0 |  |
+| Члан 323. | [clan-323.md](clan-323.md) | 0 |  |
+| Члан 324. | [clan-324.md](clan-324.md) | 0 |  |
+| Члан 325. | [clan-325.md](clan-325.md) | 0 |  |
+| Члан 326. | [clan-326.md](clan-326.md) | 0 |  |
+| Члан 327. | [clan-327.md](clan-327.md) | 0 |  |
+| Члан 328. | [clan-328.md](clan-328.md) | 0 |  |
+| Члан 329. | [clan-329.md](clan-329.md) | 0 |  |
+| Члан 330. | [clan-330.md](clan-330.md) | 0 |  |
+| Члан 331. | [clan-331.md](clan-331.md) | 0 |  |
+| Члан 332. | [clan-332.md](clan-332.md) | 0 |  |
+| Члан 333. | [clan-333.md](clan-333.md) | 0 |  |
+| Члан 334. | [clan-334.md](clan-334.md) | 0 |  |
+| Члан 335. | [clan-335.md](clan-335.md) | 0 |  |
+| Члан 336. | [clan-336.md](clan-336.md) | 0 |  |
+| Члан 337. | [clan-337.md](clan-337.md) | 0 |  |
+| Члан 338. | [clan-338.md](clan-338.md) | 0 |  |
+| Члан 339. | [clan-339.md](clan-339.md) | 0 |  |
+| XXII ВАНРЕДНИ ПРАВНИ ЛИЈЕКОВИ | [clan-339-zz-heading-1.md](clan-339-zz-heading-1.md) | 0 |  |
+| Члан 340. | [clan-340.md](clan-340.md) | 0 |  |
+| Члан 341. | [clan-341.md](clan-341.md) | 0 |  |
+| Члан 342. | [clan-342.md](clan-342.md) | 0 |  |
+| Члан 343. | [clan-343.md](clan-343.md) | 0 |  |
+| Члан 344. | [clan-344.md](clan-344.md) | 0 |  |
+| Члан 345. | [clan-345.md](clan-345.md) | 0 |  |
+| Члан 346. | [clan-346.md](clan-346.md) | 0 |  |
+| Члан 347. | [clan-347.md](clan-347.md) | 0 |  |
+| Члан 348. | [clan-348.md](clan-348.md) | 0 |  |
+| Члан 349. | [clan-349.md](clan-349.md) | 0 |  |
+| Члан 350. | [clan-350.md](clan-350.md) | 0 |  |
+| Члан 351. | [clan-351.md](clan-351.md) | 0 |  |
+| Члан 352. | [clan-352.md](clan-352.md) | 0 |  |
+| Члан 353. | [clan-353.md](clan-353.md) | 0 |  |
+| Члан 354. | [clan-354.md](clan-354.md) | 0 |  |
+| Члан 355. | [clan-355.md](clan-355.md) | 0 |  |
+| Члан 356. | [clan-356.md](clan-356.md) | 0 |  |
+| Члан 357. | [clan-357.md](clan-357.md) | 0 |  |
+| ДИО ЧЕТВРТИ | [clan-357-zz-heading-1.md](clan-357-zz-heading-1.md) | 0 |  |
+| ПОСЕБНИ ПОСТУПЦИ | [clan-357-zz-heading-2.md](clan-357-zz-heading-2.md) | 0 |  |
+| XXIII ПОСТУПАК ЗА ИЗДАВАЊЕ КАЗНЕНОГ НАЛОГА | [clan-357-zz-heading-3.md](clan-357-zz-heading-3.md) | 0 |  |
+| Члан 358. | [clan-358.md](clan-358.md) | 0 |  |
+| Члан 359. | [clan-359.md](clan-359.md) | 0 |  |
+| Члан 360. | [clan-360.md](clan-360.md) | 0 |  |
+| Члан 361. | [clan-361.md](clan-361.md) | 0 |  |
+| Члан 362. | [clan-362.md](clan-362.md) | 0 |  |
+| Члан 363. | [clan-363.md](clan-363.md) | 0 |  |
+| XXIV ПОСТУПАК ПРОТИВ ПРАВНИХ ЛИЦА | [clan-363-zz-heading-1.md](clan-363-zz-heading-1.md) | 0 |  |
+| Члан 364. | [clan-364.md](clan-364.md) | 0 |  |
+| Члан 365. | [clan-365.md](clan-365.md) | 0 |  |
+| Члан 366. | [clan-366.md](clan-366.md) | 0 |  |
+| Члан 367. | [clan-367.md](clan-367.md) | 0 |  |
+| Члан 368. | [clan-368.md](clan-368.md) | 0 |  |
+| Члан 369. | [clan-369.md](clan-369.md) | 0 |  |
+| Члан 370. | [clan-370.md](clan-370.md) | 0 |  |
+| Члан 371. | [clan-371.md](clan-371.md) | 0 |  |
+| Члан 372. | [clan-372.md](clan-372.md) | 0 |  |
+| Члан 373. | [clan-373.md](clan-373.md) | 0 |  |
+| Члан 374. | [clan-374.md](clan-374.md) | 0 |  |
+| Члан 375. | [clan-375.md](clan-375.md) | 0 |  |
+| Члан 376. | [clan-376.md](clan-376.md) | 0 |  |
+| XXV ПОСЕБНЕ ОДРЕДБЕ О ИЗРИЦАЊУ СУДСКЕ ОПОМЕНЕ | [clan-376-zz-heading-1.md](clan-376-zz-heading-1.md) | 0 |  |
+| Члан 377. | [clan-377.md](clan-377.md) | 0 |  |
+| Члан 378. | [clan-378.md](clan-378.md) | 0 |  |
+| Члан 379. | [clan-379.md](clan-379.md) | 0 |  |
+| Члан 380. | [clan-380.md](clan-380.md) | 0 |  |
+| Члан 381. | [clan-381.md](clan-381.md) | 0 |  |
+| XXVI ПОСТУПАК ЗА ПРИМЈЕНУ МЈЕРА БЕЗБЈЕДНОСТИ, ЗА ОДУЗИМАЊЕ ИМОВИНСКЕ КОРИСТИ ПРИБАВЉЕНЕ КРИВИЧНИМ ДЈЕЛОМ И ЗА ОПОЗИВАЊЕ УСЛОВНЕ ОСУДЕ | [clan-381-zz-heading-1.md](clan-381-zz-heading-1.md) | 0 |  |
+| Члан 382. | [clan-382.md](clan-382.md) | 0 |  |
+| Члан 383. | [clan-383.md](clan-383.md) | 0 |  |
+| Члан 384. | [clan-384.md](clan-384.md) | 0 |  |
+| Члан 385. | [clan-385.md](clan-385.md) | 0 |  |
+| Члан 386. | [clan-386.md](clan-386.md) | 0 |  |
+| Члан 387. | [clan-387.md](clan-387.md) | 0 |  |
+| Члан 388. | [clan-388.md](clan-388.md) | 0 |  |
+| Члан 389. | [clan-389.md](clan-389.md) | 0 |  |
+| Члан 390. | [clan-390.md](clan-390.md) | 0 |  |
+| Члан 391. | [clan-391.md](clan-391.md) | 0 |  |
+| Члан 392. | [clan-392.md](clan-392.md) | 0 |  |
+| Члан 393. | [clan-393.md](clan-393.md) | 0 |  |
+| Члан 394. | [clan-394.md](clan-394.md) | 0 |  |
+| XXVII ПОСТУПАК ЗА ДОНОШЕЊЕ ОДЛУКЕ О БРИСАЊУ ОСУДЕ ИЛИ ПРЕСТАНКУ МЈЕРА БЕЗБЈЕДНОСТИ И ПРАВНИХ ПОСЉЕДИЦА ОСУДЕ | [clan-394-zz-heading-1.md](clan-394-zz-heading-1.md) | 0 |  |
+| Члан 395. | [clan-395.md](clan-395.md) | 0 |  |
+| Члан 396. | [clan-396.md](clan-396.md) | 0 |  |
+| Члан 397. | [clan-397.md](clan-397.md) | 0 |  |
+| Члан 398. | [clan-398.md](clan-398.md) | 0 |  |
+| Члан 399. | [clan-399.md](clan-399.md) | 0 |  |
+| Члан 400. | [clan-400.md](clan-400.md) | 0 |  |
+| XXVIII ПОСТУПАК ЗА ПРУЖАЊЕ МЕЂУНАРОДНЕ ПРАВНЕ ПОМОЋИ И ИЗВРШЕЊЕ МЕЂУНАРОДНИХ УГОВОРА У КРИВИЧНОПРАВНИМ СТВАРИМА | [clan-400-zz-heading-1.md](clan-400-zz-heading-1.md) | 0 |  |
+| Члан 401. | [clan-401.md](clan-401.md) | 0 |  |
+| Члан 402. | [clan-402.md](clan-402.md) | 0 |  |
+| Члан 403. | [clan-403.md](clan-403.md) | 0 |  |
+| Члан 404. | [clan-404.md](clan-404.md) | 0 |  |
+| Члан 405. | [clan-405.md](clan-405.md) | 0 |  |
+| Члан 406. | [clan-406.md](clan-406.md) | 0 |  |
+| Члан 407. | [clan-407.md](clan-407.md) | 0 |  |
+| XXIX ПОСТУПАК ЗА НАКНАДУ ШТЕТЕ, РЕХАБИЛИТАЦИЈУ И ОСТВАРИВАЊЕ ДРУГИХ ПРАВА ЛИЦА БЕЗ ОСНОВА ОСУЂЕНИХ И НЕОСНОВАНО ЛИШЕНИХ СЛОБОДЕ | [clan-407-zz-heading-1.md](clan-407-zz-heading-1.md) | 0 |  |
+| Члан 408. | [clan-408.md](clan-408.md) | 0 |  |
+| Члан 409. | [clan-409.md](clan-409.md) | 0 |  |
+| Члан 410. | [clan-410.md](clan-410.md) | 0 |  |
+| Члан 411. | [clan-411.md](clan-411.md) | 0 |  |
+| Члан 412. | [clan-412.md](clan-412.md) | 0 |  |
+| Члан 413. | [clan-413.md](clan-413.md) | 0 |  |
+| Члан 414. | [clan-414.md](clan-414.md) | 0 |  |
+| Члан 415. | [clan-415.md](clan-415.md) | 0 |  |
+| Члан 416. | [clan-416.md](clan-416.md) | 0 |  |
+| XXX ПОСТУПАК ЗА ИЗДАВАЊЕ ПОТЈЕРНИЦЕ И ОБЈАВЕ | [clan-416-zz-heading-1.md](clan-416-zz-heading-1.md) | 0 |  |
+| Члан 417. | [clan-417.md](clan-417.md) | 0 |  |
+| Члан 418. | [clan-418.md](clan-418.md) | 0 |  |
+| Члан 419. | [clan-419.md](clan-419.md) | 0 |  |
+| Члан 420. | [clan-420.md](clan-420.md) | 0 |  |
+| Члан 421. | [clan-421.md](clan-421.md) | 0 |  |
+| XXXI ПРЕЛАЗНЕ И ЗАВРШНЕ ОДРЕДБЕ | [clan-421-zz-heading-1.md](clan-421-zz-heading-1.md) | 0 |  |
+| Члан 422. | [clan-422.md](clan-422.md) | 0 |  |
+| Члан 423. | [clan-423.md](clan-423.md) | 0 |  |
+| Члан 424. | [clan-424.md](clan-424.md) | 0 |  |
+| Члан 425. | [clan-425.md](clan-425.md) | 0 |  |
+| Члан 426. | [clan-426.md](clan-426.md) | 0 |  |
+| Члан 427. | [clan-427.md](clan-427.md) | 0 |  |
+| Члан 428. | [clan-428.md](clan-428.md) | 0 |  |
+| Члан 429. | [clan-429.md](clan-429.md) | 0 |  |
+| Члан 430. | [clan-430.md](clan-430.md) | 0 |  |
+
+Act id: `zakon-2012-sg053-85bf3f` (`python registry/tools/on.py <day> zakon-2012-sg053-85bf3f`).
+
+## Status
+
+**amended, not consolidated**: the text here is the act as published; the official sources name later acts that change or cite it, and no official consolidated text exists.
+
+Amended or repealed by:
+
+- [Закон о измјенама и допунама Закона о кривичном поступку Републике Српске](https://erp.slglasnik.org/erp/slglasnik.org/rs/sgrs/narodna-skupstina-republike-srpske/zakon/2017/91/6493)
+- [Закон о измјенама Закона о кривичном поступку Републике Српске](https://erp.slglasnik.org/erp/slglasnik.org/rs/sgrs/narodna-skupstina-republike-srpske/zakon/2018/66/7011)
+- [Закључак у вези са Нацртом закона о измјенама и допунама Закона о кривичном поступку Републике Српске](https://online.slglasnik.org/sr/propisi/064-2020)
+- [Закон о измјенама и допунама Закона о кривичном поступку Републике Српске](https://erp.slglasnik.org/erp/slglasnik.org/rs/sgrs/narodna-skupstina-republike-srpske/zakon/2021/15/8654)
+
+## Decisions made by hand
+
+- A law of the National Assembly of Republika Srpska is published here in the text of the Assembly's file of the adopted law (Cyrillic, signed by the Assembly's President); the gazette's own text needs a login. The signature block below the text is cut.
+- The law must be listed in the contents of the gazette issue the Assembly names; its one version takes effect on the day its own final article names, counted from that issue's date as the gazette publisher gives it ("осмог дана од дана објављивања" = issue date + 8); a separate day of application is only noted.
+- Every law is published as enacted. A law the official sources report as changed later is labelled "amended, not consolidated" and names the changing acts (amended_by): the gazette publisher's register (eRP) lists a related act published on or after it, a later title in the gazette's contents amends, corrects or re-enacts it, a later Assembly law text cites it with later gazette numbers, or a Constitutional Court ruling strikes provisions of it. It is labelled "repealed, not consolidated" when the register records it as no longer in force or no longer lists it, or a later law text repeals it. An amending law is labelled only when a later title names the amending law itself or a ruling strikes it; a later law citing it does not change its text. No consolidated text is made.
+- A law is held back when the register gives it another publication day, a decision brings its entry into force forward, or its text does not read cleanly (see the holds report).
+- Articles follow the headings "Члан N." outside quotation marks; the short centred line above a heading is its caption and is printed under it; upper-case lines between articles are headings.
+- Titles and texts of later laws are compared in Latin transliteration (matching only); every text keeps its Cyrillic script.
+- Typesetting is normalised once: Latin look-alike letters typed inside a Cyrillic word become the Cyrillic letters they look like; list numbers that Word generates automatically (decimal, Latin letters, Roman, dash bullets) are written into the text as the file displays them; any other automatic numbering, an unbalanced quotation, or a missing or repeated article number holds the law back.
+- rs-core-runner (2026-11-16): an odd quotation mark in the file is a typo or the amended law's quoted article is not closed; the law's own articles are read in their numbered order.
