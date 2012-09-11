@@ -1,0 +1,13 @@
+# Правилник о условима обављања послова пратње и обезбјеђења новца, вриједносних папира, племенитих ковина, метала и других вриједности
+
+Наслов: Правилник о условима обављања послова пратње и обезбјеђења новца, вриједносних папира, племенитих ковина, метала и других вриједности
+
+Врста: Правилник. Доносилац: Министарство унутрашњих послова.
+
+Датум усвајања (eRP): 2012-08-15. Објављено: Službeni glasnik Republike Srpske 85/2012 (2012-09-11).
+
+Статус у регистру на дан 2026-11-15: Aktivan.
+
+Службени запис (ELI): <https://erp.slglasnik.org/erp/slglasnik.org/rs/sgrs/ministarstvo-unutrasnjih-poslova/pravilnik/2016/85/1184>
+
+Metadata record from the official eRP register; the register serves the text to subscribers only.
