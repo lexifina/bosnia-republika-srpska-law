@@ -1,0 +1,13 @@
+# Правилник о условима за обављање дјелатности из области заштите животне средине
+
+Наслов: Правилник о условима за обављање дјелатности из области заштите животне средине
+
+Врста: Правилник. Доносилац: Министарство за просторно уређење, грађевинарство и екологију.
+
+Датум усвајања (eRP): 2013-03-19. Објављено: Službeni glasnik Republike Srpske 28/2013 (2013-04-04).
+
+Статус у регистру на дан 2026-11-15: Aktivan.
+
+Службени запис (ELI): <https://erp.slglasnik.org/erp/slglasnik.org/rs/sgrs/ministarstvo-za-prostorno-uredjenje,-gradjevinarstvo-i-ekologiju/pravilnik/2016/28/4900>
+
+Metadata record from the official eRP register; the register serves the text to subscribers only.
