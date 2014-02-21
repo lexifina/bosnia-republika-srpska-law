@@ -1,0 +1,13 @@
+# Правилник о условима и начину спровођења мјере одузимања предмета
+
+Наслов: Правилник о условима и начину спровођења мјере одузимања предмета
+
+Врста: Правилник. Доносилац: Министарство финансија.
+
+Датум усвајања (eRP): 2014-02-10. Објављено: Službeni glasnik Republike Srpske 11/2014 (2014-02-21).
+
+Статус у регистру на дан 2026-11-15: Neaktivan.
+
+Службени запис (ELI): <https://erp.slglasnik.org/erp/slglasnik.org/rs/sgrs/ministarstvo-finansija/pravilnik/2016/11/6071>
+
+Metadata record from the official eRP register; the register serves the text to subscribers only.
