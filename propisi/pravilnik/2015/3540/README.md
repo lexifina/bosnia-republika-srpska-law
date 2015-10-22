@@ -1,0 +1,13 @@
+# Правилник о измјенама и допуни Правилникa о усклађивању и регистрацији редова вожње
+
+Наслов: Правилник о измјенама и допуни Правилникa о усклађивању и регистрацији редова вожње
+
+Врста: Правилник. Доносилац: Министарство саобраћаја и веза.
+
+Датум усвајања (eRP): 2015-10-19. Објављено: Službeni glasnik Republike Srpske 87/2015 (2015-10-22).
+
+Статус у регистру на дан 2026-11-15: Neaktivan.
+
+Службени запис (ELI): <https://erp.slglasnik.org/erp/slglasnik.org/rs/sgrs/ministarstvo-saobracaja-i-veza/pravilnik/2016/87/3540>
+
+Metadata record from the official eRP register; the register serves the text to subscribers only.
