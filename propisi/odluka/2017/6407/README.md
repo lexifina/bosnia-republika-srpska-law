@@ -1,0 +1,13 @@
+# Одлука о поступку интерне процјене адекватности капитала у банкама
+
+Наслов: Одлука о поступку интерне процјене адекватности капитала у банкама
+
+Врста: Одлукa. Доносилац: Агенција за банкарство Републике Српске.
+
+Датум усвајања (eRP): 2017-07-25. Објављено: Službeni glasnik Republike Srpske 75/2017 (2017-08-10).
+
+Статус у регистру на дан 2026-11-15: Neaktivan.
+
+Службени запис (ELI): <https://erp.slglasnik.org/erp/slglasnik.org/rs/sgrs/agencija-za-bankarstvo-republike-srpske/odluka/2017/75/6407>
+
+Metadata record from the official eRP register; the register serves the text to subscribers only.
