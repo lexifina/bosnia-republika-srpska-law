@@ -1,0 +1,13 @@
+# Правилник о измјенама и допунама Правилника о дисциплинској и материјалној одговорности службеника Судске полиције
+
+Наслов: Правилник о измјенама и допунама Правилника о дисциплинској и материјалној одговорности службеника Судске полиције
+
+Врста: Правилник. Доносилац: Врховни суд Републике Српске.
+
+Датум усвајања (eRP): 2018-04-26. Објављено: Službeni glasnik Republike Srpske 51/2018 (2018-06-12).
+
+Статус у регистру на дан 2026-11-15: Neaktivan.
+
+Службени запис (ELI): <https://erp.slglasnik.org/erp/slglasnik.org/rs/sgrs/vrhovni-sud-republike-srpske/pravilnik/2018/51/6934>
+
+Metadata record from the official eRP register; the register serves the text to subscribers only.
