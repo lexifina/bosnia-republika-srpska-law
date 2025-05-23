@@ -1,0 +1,13 @@
+# Одлука о издавању сагласности/дозволе Инвестиционо-развојнoj банци Републике Српске за обављање платног промета и примање новчаних депозита
+
+Наслов: Одлука о издавању сагласности/дозволе Инвестиционо-развојнoj банци Републике Српске за обављање платног промета и примање новчаних депозита
+
+Врста: Одлукa. Доносилац: Агенција за банкарство Републике Српске.
+
+Датум усвајања (eRP): 2025-05-23. Објављено: Službeni glasnik Republike Srpske 43/2025 (2025-05-23).
+
+Статус у регистру на дан 2026-11-15: Aktivan.
+
+Службени запис (ELI): <https://erp.slglasnik.org/erp/slglasnik.org/rs/sgrs/agencija-za-bankarstvo-republike-srpske/odluka/2025/43/16153>
+
+Metadata record from the official eRP register; the register serves the text to subscribers only.
