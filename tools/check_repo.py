@@ -52,6 +52,32 @@ def commits_by_act(repo: Path, branch: str, act: str) -> list[tuple[str, str]]:
     return [(h, d.strip()) for h, d in (l.split('\t', 1) for l in out.splitlines()) if d.strip()]
 
 
+def all_commits_by_act(repo: Path, branch: str, acts: list[str]) -> dict[str, list[tuple[str, str]]]:
+    """commits_by_act() for every act from one `git log --name-only` walk instead of one walk per act (a corpus of a
+    few thousand acts spent most of its check time there). Same commits, same order: a commit belongs to an act when
+    it touches a path at or under it; --no-renames lists both sides of a move, as the per-act path filter sees it."""
+    want = set(acts)
+    rows: dict[str, list[tuple[str, str]]] = {a: [] for a in acts}
+    out = git(repo, 'log', '--no-merges', '--no-renames', '--name-only',
+              '--format=%x00%H%x09%(trailers:key=In-force,valueonly,separator=)', branch)
+    for rec in out.split('\x00')[1:]:
+        head, _, names = rec.partition('\n')
+        h, _, d = head.partition('\t')
+        d = d.strip()
+        if not d:
+            continue
+        hit = set()
+        for name in names.splitlines():
+            parts = name.split('/')
+            for i in range(1, len(parts) + 1):
+                p = '/'.join(parts[:i])
+                if p in want:
+                    hit.add(p)
+        for a in hit:
+            rows[a].append((h, d))
+    return rows
+
+
 def state_on(rows: list[tuple[str, str]], day: str) -> str | None:
     for h, d in rows:
         if d <= day:
@@ -107,9 +133,17 @@ def check(repo: Path, corpus: Path) -> dict:
     cat = Cat(repo)
     trees: dict = {}
     mismatches, versions, details = 0, 0, []
+    branch = future if has_future else 'main'
+    by_act = all_commits_by_act(repo, branch, [a['slug'] for a in c['acts']])
+    # Correction commits (Kind: correction), read by the reading rule in on.py (tools/on.py beside tools/check_repo.py).
+    # A branch with none is checked exactly as before.
+    from on import Reader, _ls
+    rd = Reader(branch, repo, base=lambda h, p: _ls(repo, h, p) if p.endswith('.md') else tree_oids(cat, h, p, trees))
     for act in c['acts']:
         slug = act['slug']
-        rows = commits_by_act(repo, future if has_future else 'main', slug)
+        rows = by_act[slug]
+        if rd.fixes:
+            rows = [r for r in rows if r[0] not in rd.skip]
         prev = None
         vs = act['versions']
         for i, v in enumerate(vs):
@@ -120,7 +154,11 @@ def check(repo: Path, corpus: Path) -> dict:
                 continue
             before = next((w for w in reversed(vs[:i]) if w['from'] < v['from']), None)
             for day, want in ((v['from'], v), ((dt.date.fromisoformat(v['from']) - dt.timedelta(days=1)).isoformat(), before)):
-                h = state_on(rows, day)
+                if rd.fixes:
+                    files, _, _ = rd.files(slug, day, rows=rows)
+                    h = None if files is None else True
+                else:
+                    h = state_on(rows, day)
                 if want is None:
                     if h is not None:
                         mismatches += 1
@@ -130,8 +168,9 @@ def check(repo: Path, corpus: Path) -> dict:
                     mismatches += 1
                     details.append(f'{slug}: nothing in force on {day}')
                     continue
-                files = tree_oids(cat, h, slug, trees)
-                expect = {f'{slug}/{k}.md': blob_oid(u['text']) for k, u in want['units'].items()}
+                if not rd.fixes:
+                    files = tree_oids(cat, h, slug, trees)
+                expect ={f'{slug}/{k}.md': blob_oid(u['text']) for k, u in want['units'].items()}
                 for f in sorted(set(files) | set(expect)):
                     if files.get(f) != expect.get(f):
                         mismatches += 1
@@ -161,7 +200,8 @@ def check(repo: Path, corpus: Path) -> dict:
     # The last commit is the docs commit, dated noon local time on --docs-date; built the same day before noon it is
     # a few hours ahead of now. Allow it up to two days; every law commit must be in the past.
     future_dated = sum(1 for x in cts[:-1] if x > now) + (1 if cts and cts[-1] > now + 2 * 86400 else 0)
-    return {'acts': len(c['acts']), 'versions': versions, 'mismatches': mismatches, 'trailer_errors': trailer_errors,
+    extra = {'corrections': len(rd.fixes)} if rd.fixes else {}  # only when there are any: unchanged output otherwise
+    return {**extra, 'acts': len(c['acts']), 'versions': versions, 'mismatches': mismatches, 'trailer_errors': trailer_errors,
             'missing_in_force': missing_in_force, 'merges': merges, 'backwards': backwards,
             'future_dated': future_dated, 'details': details,
             # Which corpus this check read (a main build reads only the verified parts), so REPRODUCE.md quotes a check
