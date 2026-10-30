@@ -1,0 +1,11 @@
+{
+  "path": "ba-srp",
+  "code": "BA-SRP",
+  "name": "Republika Srpska",
+  "level": "entity",
+  "parent": "ba",
+  "repo": "https://github.com/lexifina/bosnia-republika-srpska-law",
+  "build": "built: the Constitution (consolidated text, 1 version) from the National Assembly of Republika Srpska",
+  "language": "sr-Cyrl",
+  "sources": 1
+}

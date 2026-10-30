@@ -1,0 +1,19 @@
+{
+ "country": "BA-SRP",
+ "acts": [
+  {
+   "slug": "ustav",
+   "short": "Устав РС",
+   "title": "Устав Републике Српске",
+   "url": "https://www.narodnaskupstinars.net/ci/akti/ustav",
+   "versions": [
+    {
+     "from": "2017-03-09",
+     "units": 144,
+     "source_url": "https://www.narodnaskupstinars.net/sites/default/files/upload/dokumeti/kodeks/ustav_republike_srpske.pdf",
+     "sha256": "91b92a5d79e723b5b18ed34aba645516a695748764d86646527e32ddc5bd851d"
+    }
+   ]
+  }
+ ]
+}
