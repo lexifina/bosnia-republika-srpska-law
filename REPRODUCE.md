@@ -1,12 +1,83 @@
 # How this repository was made (Republika Srpska)
 
-This file is written by the build on 2026-10-30, the day the source data was retrieved.
+This file is written by the build on 2026-11-03, the day the source data was retrieved.
 
 ## Sources
 
 | Source | Address | Retrieved | Licence |
 | --- | --- | --- | --- |
-| Narodna skupština Republike Srpske: Устав Републике Српске (consolidated text, PDF) | <https://www.narodnaskupstinars.net/sites/default/files/upload/dokumeti/kodeks/ustav_republike_srpske.pdf> | 2026-10-30 | Official text, not protected: Zakon o autorskom i srodnim pravima BiH (Sl. glasnik BiH 63/10), čl. 8(1)(b) |
+| Narodna skupština Republike Srpske: usvojeni zakoni (narodnaskupstinars.net) | <https://www.narodnaskupstinars.net/ci/akti/usvojeni-zakoni> | 2026-11-03 | Official texts of laws; not protected by copyright |
+| JU Službeni glasnik Republike Srpske: Pregled (online.slglasnik.org) | <https://online.slglasnik.org/sr/pregled> | 2026-11-03 | Official gazette metadata |
+| JU Službeni glasnik Republike Srpske: Elektronski registar propisa (erp.slglasnik.org) | <https://erp.slglasnik.org/> | 2026-11-03 | Official register metadata |
+| Ustavni sud Republike Srpske: odluke (ustavnisud.org) | <https://www.ustavnisud.org/> | 2026-11-03 | Official court decisions |
+| Narodna skupština Republike Srpske: usvojeni zakoni (narodnaskupstinars.net) | <https://www.narodnaskupstinars.net/ci/akti/usvojeni-zakoni> | 2026-11-03 | Official texts of laws; not protected by copyright |
+| JU Službeni glasnik Republike Srpske: Pregled (online.slglasnik.org) | <https://online.slglasnik.org/sr/pregled> | 2026-11-03 | Official gazette metadata |
+| JU Službeni glasnik Republike Srpske: Elektronski registar propisa (erp.slglasnik.org) | <https://erp.slglasnik.org/> | 2026-11-03 | Official register metadata |
+| Ustavni sud Republike Srpske: odluke (ustavnisud.org) | <https://www.ustavnisud.org/> | 2026-11-03 | Official court decisions |
+| Narodna skupština Republike Srpske: usvojeni zakoni (narodnaskupstinars.net) | <https://www.narodnaskupstinars.net/ci/akti/usvojeni-zakoni> | 2026-11-03 | Official texts of laws; not protected by copyright |
+| JU Službeni glasnik Republike Srpske: Pregled (online.slglasnik.org) | <https://online.slglasnik.org/sr/pregled> | 2026-11-03 | Official gazette metadata |
+| JU Službeni glasnik Republike Srpske: Elektronski registar propisa (erp.slglasnik.org) | <https://erp.slglasnik.org/> | 2026-11-03 | Official register metadata |
+| Ustavni sud Republike Srpske: odluke (ustavnisud.org) | <https://www.ustavnisud.org/> | 2026-11-03 | Official court decisions |
+| Narodna skupština Republike Srpske: usvojeni zakoni (narodnaskupstinars.net) | <https://www.narodnaskupstinars.net/ci/akti/usvojeni-zakoni> | 2026-11-03 | Official texts of laws; not protected by copyright |
+| JU Službeni glasnik Republike Srpske: Pregled (online.slglasnik.org) | <https://online.slglasnik.org/sr/pregled> | 2026-11-03 | Official gazette metadata |
+| JU Službeni glasnik Republike Srpske: Elektronski registar propisa (erp.slglasnik.org) | <https://erp.slglasnik.org/> | 2026-11-03 | Official register metadata |
+| Ustavni sud Republike Srpske: odluke (ustavnisud.org) | <https://www.ustavnisud.org/> | 2026-11-03 | Official court decisions |
+| Narodna skupština Republike Srpske: usvojeni zakoni (narodnaskupstinars.net) | <https://www.narodnaskupstinars.net/ci/akti/usvojeni-zakoni> | 2026-11-03 | Official texts of laws; not protected by copyright |
+| JU Službeni glasnik Republike Srpske: Pregled (online.slglasnik.org) | <https://online.slglasnik.org/sr/pregled> | 2026-11-03 | Official gazette metadata |
+| JU Službeni glasnik Republike Srpske: Elektronski registar propisa (erp.slglasnik.org) | <https://erp.slglasnik.org/> | 2026-11-03 | Official register metadata |
+| Ustavni sud Republike Srpske: odluke (ustavnisud.org) | <https://www.ustavnisud.org/> | 2026-11-03 | Official court decisions |
+| Narodna skupština Republike Srpske: usvojeni zakoni (narodnaskupstinars.net) | <https://www.narodnaskupstinars.net/ci/akti/usvojeni-zakoni> | 2026-11-03 | Official texts of laws; not protected by copyright |
+| JU Službeni glasnik Republike Srpske: Pregled (online.slglasnik.org) | <https://online.slglasnik.org/sr/pregled> | 2026-11-03 | Official gazette metadata |
+| JU Službeni glasnik Republike Srpske: Elektronski registar propisa (erp.slglasnik.org) | <https://erp.slglasnik.org/> | 2026-11-03 | Official register metadata |
+| Ustavni sud Republike Srpske: odluke (ustavnisud.org) | <https://www.ustavnisud.org/> | 2026-11-03 | Official court decisions |
+| Narodna skupština Republike Srpske: usvojeni zakoni (narodnaskupstinars.net) | <https://www.narodnaskupstinars.net/ci/akti/usvojeni-zakoni> | 2026-11-03 | Official texts of laws; not protected by copyright |
+| JU Službeni glasnik Republike Srpske: Pregled (online.slglasnik.org) | <https://online.slglasnik.org/sr/pregled> | 2026-11-03 | Official gazette metadata |
+| JU Službeni glasnik Republike Srpske: Elektronski registar propisa (erp.slglasnik.org) | <https://erp.slglasnik.org/> | 2026-11-03 | Official register metadata |
+| Ustavni sud Republike Srpske: odluke (ustavnisud.org) | <https://www.ustavnisud.org/> | 2026-11-03 | Official court decisions |
+| Narodna skupština Republike Srpske: usvojeni zakoni (narodnaskupstinars.net) | <https://www.narodnaskupstinars.net/ci/akti/usvojeni-zakoni> | 2026-11-03 | Official texts of laws; not protected by copyright |
+| JU Službeni glasnik Republike Srpske: Pregled (online.slglasnik.org) | <https://online.slglasnik.org/sr/pregled> | 2026-11-03 | Official gazette metadata |
+| JU Službeni glasnik Republike Srpske: Elektronski registar propisa (erp.slglasnik.org) | <https://erp.slglasnik.org/> | 2026-11-03 | Official register metadata |
+| Ustavni sud Republike Srpske: odluke (ustavnisud.org) | <https://www.ustavnisud.org/> | 2026-11-03 | Official court decisions |
+| Narodna skupština Republike Srpske: usvojeni zakoni (narodnaskupstinars.net) | <https://www.narodnaskupstinars.net/ci/akti/usvojeni-zakoni> | 2026-11-03 | Official texts of laws; not protected by copyright |
+| JU Službeni glasnik Republike Srpske: Pregled (online.slglasnik.org) | <https://online.slglasnik.org/sr/pregled> | 2026-11-03 | Official gazette metadata |
+| JU Službeni glasnik Republike Srpske: Elektronski registar propisa (erp.slglasnik.org) | <https://erp.slglasnik.org/> | 2026-11-03 | Official register metadata |
+| Ustavni sud Republike Srpske: odluke (ustavnisud.org) | <https://www.ustavnisud.org/> | 2026-11-03 | Official court decisions |
+| Narodna skupština Republike Srpske: usvojeni zakoni (narodnaskupstinars.net) | <https://www.narodnaskupstinars.net/ci/akti/usvojeni-zakoni> | 2026-11-03 | Official texts of laws; not protected by copyright |
+| JU Službeni glasnik Republike Srpske: Pregled (online.slglasnik.org) | <https://online.slglasnik.org/sr/pregled> | 2026-11-03 | Official gazette metadata |
+| JU Službeni glasnik Republike Srpske: Elektronski registar propisa (erp.slglasnik.org) | <https://erp.slglasnik.org/> | 2026-11-03 | Official register metadata |
+| Ustavni sud Republike Srpske: odluke (ustavnisud.org) | <https://www.ustavnisud.org/> | 2026-11-03 | Official court decisions |
+| Narodna skupština Republike Srpske: usvojeni zakoni (narodnaskupstinars.net) | <https://www.narodnaskupstinars.net/ci/akti/usvojeni-zakoni> | 2026-11-03 | Official texts of laws; not protected by copyright |
+| JU Službeni glasnik Republike Srpske: Pregled (online.slglasnik.org) | <https://online.slglasnik.org/sr/pregled> | 2026-11-03 | Official gazette metadata |
+| JU Službeni glasnik Republike Srpske: Elektronski registar propisa (erp.slglasnik.org) | <https://erp.slglasnik.org/> | 2026-11-03 | Official register metadata |
+| Ustavni sud Republike Srpske: odluke (ustavnisud.org) | <https://www.ustavnisud.org/> | 2026-11-03 | Official court decisions |
+| Narodna skupština Republike Srpske: usvojeni zakoni (narodnaskupstinars.net) | <https://www.narodnaskupstinars.net/ci/akti/usvojeni-zakoni> | 2026-11-03 | Official texts of laws; not protected by copyright |
+| JU Službeni glasnik Republike Srpske: Pregled (online.slglasnik.org) | <https://online.slglasnik.org/sr/pregled> | 2026-11-03 | Official gazette metadata |
+| JU Službeni glasnik Republike Srpske: Elektronski registar propisa (erp.slglasnik.org) | <https://erp.slglasnik.org/> | 2026-11-03 | Official register metadata |
+| Ustavni sud Republike Srpske: odluke (ustavnisud.org) | <https://www.ustavnisud.org/> | 2026-11-03 | Official court decisions |
+| Narodna skupština Republike Srpske: usvojeni zakoni (narodnaskupstinars.net) | <https://www.narodnaskupstinars.net/ci/akti/usvojeni-zakoni> | 2026-11-03 | Official texts of laws; not protected by copyright |
+| JU Službeni glasnik Republike Srpske: Pregled (online.slglasnik.org) | <https://online.slglasnik.org/sr/pregled> | 2026-11-03 | Official gazette metadata |
+| JU Službeni glasnik Republike Srpske: Elektronski registar propisa (erp.slglasnik.org) | <https://erp.slglasnik.org/> | 2026-11-03 | Official register metadata |
+| Ustavni sud Republike Srpske: odluke (ustavnisud.org) | <https://www.ustavnisud.org/> | 2026-11-03 | Official court decisions |
+| Narodna skupština Republike Srpske: usvojeni zakoni (narodnaskupstinars.net) | <https://www.narodnaskupstinars.net/ci/akti/usvojeni-zakoni> | 2026-11-03 | Official texts of laws; not protected by copyright |
+| JU Službeni glasnik Republike Srpske: Pregled (online.slglasnik.org) | <https://online.slglasnik.org/sr/pregled> | 2026-11-03 | Official gazette metadata |
+| JU Službeni glasnik Republike Srpske: Elektronski registar propisa (erp.slglasnik.org) | <https://erp.slglasnik.org/> | 2026-11-03 | Official register metadata |
+| Ustavni sud Republike Srpske: odluke (ustavnisud.org) | <https://www.ustavnisud.org/> | 2026-11-03 | Official court decisions |
+| Narodna skupština Republike Srpske: usvojeni zakoni (narodnaskupstinars.net) | <https://www.narodnaskupstinars.net/ci/akti/usvojeni-zakoni> | 2026-11-03 | Official texts of laws; not protected by copyright |
+| JU Službeni glasnik Republike Srpske: Pregled (online.slglasnik.org) | <https://online.slglasnik.org/sr/pregled> | 2026-11-03 | Official gazette metadata |
+| JU Službeni glasnik Republike Srpske: Elektronski registar propisa (erp.slglasnik.org) | <https://erp.slglasnik.org/> | 2026-11-03 | Official register metadata |
+| Ustavni sud Republike Srpske: odluke (ustavnisud.org) | <https://www.ustavnisud.org/> | 2026-11-03 | Official court decisions |
+| Narodna skupština Republike Srpske: usvojeni zakoni (narodnaskupstinars.net) | <https://www.narodnaskupstinars.net/ci/akti/usvojeni-zakoni> | 2026-11-03 | Official texts of laws; not protected by copyright |
+| JU Službeni glasnik Republike Srpske: Pregled (online.slglasnik.org) | <https://online.slglasnik.org/sr/pregled> | 2026-11-03 | Official gazette metadata |
+| JU Službeni glasnik Republike Srpske: Elektronski registar propisa (erp.slglasnik.org) | <https://erp.slglasnik.org/> | 2026-11-03 | Official register metadata |
+| Ustavni sud Republike Srpske: odluke (ustavnisud.org) | <https://www.ustavnisud.org/> | 2026-11-03 | Official court decisions |
+| Narodna skupština Republike Srpske: usvojeni zakoni (narodnaskupstinars.net) | <https://www.narodnaskupstinars.net/ci/akti/usvojeni-zakoni> | 2026-11-03 | Official texts of laws; not protected by copyright |
+| JU Službeni glasnik Republike Srpske: Pregled (online.slglasnik.org) | <https://online.slglasnik.org/sr/pregled> | 2026-11-03 | Official gazette metadata |
+| JU Službeni glasnik Republike Srpske: Elektronski registar propisa (erp.slglasnik.org) | <https://erp.slglasnik.org/> | 2026-11-03 | Official register metadata |
+| Ustavni sud Republike Srpske: odluke (ustavnisud.org) | <https://www.ustavnisud.org/> | 2026-11-03 | Official court decisions |
+| Narodna skupština Republike Srpske: usvojeni zakoni (narodnaskupstinars.net) | <https://www.narodnaskupstinars.net/ci/akti/usvojeni-zakoni> | 2026-11-03 | Official texts of laws; not protected by copyright |
+| JU Službeni glasnik Republike Srpske: Pregled (online.slglasnik.org) | <https://online.slglasnik.org/sr/pregled> | 2026-11-03 | Official gazette metadata |
+| JU Službeni glasnik Republike Srpske: Elektronski registar propisa (erp.slglasnik.org) | <https://erp.slglasnik.org/> | 2026-11-03 | Official register metadata |
+| Ustavni sud Republike Srpske: odluke (ustavnisud.org) | <https://www.ustavnisud.org/> | 2026-11-03 | Official court decisions |
 
 Every word of law in this repository comes from these sources. Lexifina reads them and records each act's dated versions, and the laws that made each change, in one corpus file. This repository is built from that file.
 
@@ -14,48 +85,45 @@ Every word of law in this repository comes from these sources. Lexifina reads th
 
 | Act | Title | Versions | Span |
 | --- | --- | ---: | --- |
-| `ustav` | Устав Републике Српске | 1 | 2017-03-09 to 2017-03-09 |
+| 327 acts | every act, with its kind, number, status and span, is listed in [ACTS.md](ACTS.md) | 327 | |
 
-The build made 1 commits:
+The build made 328 commits:
 
 | Commits | Kind |
 | ---: | --- |
-| 1 | first version of an act |
+| 328 | first version of an act |
 | 0 | one law on its in-force day |
 | 0 | changes no amendment note explains, credited to the publisher |
 
 Other counts:
-- 0 commits on the branch `buducnost`: laws not yet in force on 2026-10-30.
+- 0 commits on the branch `buducnost`: laws not yet in force on 2026-11-03.
 - 0 commits dated 1 January 1970: in force before 1970, with the real day in their `In-force` trailer.
-- 17 laws in the record.
-- 1 tags.
+- 328 laws in the record.
+- 655 tags.
 
 ## Dates
 
 Each commit is dated at noon (Europe/Sarajevo) on the day the change took effect. The other dates, enacted and published, are trailers.
 
-When a law gives no date of its own, the default rule applies: An act takes effect on the day it names, most often the eighth day after its publication in Službeni glasnik Republike Srpske. https://www.narodnaskupstinars.net/ci/akti/ustav
+When a law gives no date of its own, the default rule applies: Each law of Republika Srpska names its own day in its final article, almost always the eighth day after its publication in Službeni glasnik Republike Srpske; that day is used, counted from the issue date the gazette publisher gives. https://online.slglasnik.org/sr/pregled
 
 ## How the history is built
 
-`tools/build.py` turns the corpus into this history in one pass: one commit per law, on the day it took effect. The same corpus always gives the same commit hashes. `tools/check_repo.py` reads every version back from git and compares it with the corpus. `tools/on.py` shows the law as it stood on any date. The corpus format is described in `tools/SCHEMA.md`.
+`tools/build/build.py` (and, for later publishes, `tools/build/append.py`) turns the corpus into this history in one pass: one commit per law, on the day it took effect. The same corpus always gives the same commit hashes. `tools/build/check_repo.py` reads every version back from git and compares it with the corpus. `tools/on.py` shows the law as it stood on any date. The corpus format is described in `tools/build/SCHEMA.md`.
 
-- Corpus: sha256 `3cb21c8a0a1ebae645bacae6571a988092c6b2a14609fef256d2810790a9e73e` (138914 bytes).
-- Builder blob hashes (`git hash-object`): `build.py` `900da0d33bfd1ef455267fb4dcef7961fd5acc9c`, `check.py` `5d719354ea4c62d240c93d2cae446307d81d9e81`, `on.py` `aff48cf1b68d50c7ba8f399ca32261871c301824`.
-- Python 3.14.4; git version 2.53.0.
+- Corpus: sha256 `603b76a7b5a51ef43f2c2b522dc10acb2325bc9146ead5c5c73b7d71d9b5b872` (10588230 bytes).
+- Builder blob hashes (`git hash-object`): `build.py` `6a75a05e2f381deb50fb7cb6ad297cc3fe964a71`, `check.py` `d36188b60926167ff377bd58f0b03f30cc9a1a52`, `on.py` `55bf92027127e36254521d114abde53cfefbb67d`.
+- Python 3.14.0; git version 2.52.0.windows.1.
 
 ## Checks
 
-1 versions of 1 acts read back from git on the day each took effect and on the day before: 0 mismatches. Trailers: 0 commits whose trailers git cannot parse. Health: 0 merge commits on main, 0 commit dates that go backwards, 0 commits dated after the build.
+Not yet run for this build.
 
 No second build of this corpus has been compared yet.
 
 ## Decisions made by hand
 
-- Republika Srpska Constitution: one version, the National Assembly's consolidated text (amendments to Službeni glasnik RS 48/11), dated 2017-03-09, the creation date of the published file, as the oldest version available; the source gives no date for the consolidation itself.
-- The text is kept in Cyrillic, as the National Assembly publishes it.
-- Footnote markers are dropped from the article text; the footnotes themselves (which name the amendment behind each provision) are kept, in order, in ustav/napomene.md.
-- Chapter headings stay in the file of the first article after them; running headers and page numbers are dropped.
+- Every act's decisions made by hand (126 in all) are listed in that act's own README.md, under "Decisions made by hand".
 
 ## What AI did and did not do
 
@@ -66,4 +134,21 @@ No model wrote, translated or corrected legal text. No model runs at build time.
 The commit messages are written by `build.py` from the source data.
 
 Model use at data-build time:
-- none: the text is read from the PDF text layer by a deterministic parser; no model output is legal text.
+- none
+- none
+- none
+- none
+- none
+- none
+- none
+- none
+- none
+- none
+- none
+- none
+- none
+- none
+- none
+- none
+- none
+- none
