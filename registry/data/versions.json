@@ -2,6 +2,21 @@
  "country": "BA-SRP",
  "acts": [
   {
+   "slug": "zakon-2005-sg096-0c1810",
+   "path": "zakon/2005/sg096-0c1810",
+   "short": "Закон о донацијама у јавном сектору",
+   "title": "Закон о донацијама у јавном сектору",
+   "url": "https://www.narodnaskupstinars.net/ci/akti/usvojeni-zakoni/zakon-o-donacijama-u-javnom-sektoru",
+   "versions": [
+    {
+     "from": "2005-11-04",
+     "units": 17,
+     "source_url": "https://www.narodnaskupstinars.net/sites/default/files/upload/dokumenti/akti/usvojeni_zakoni/zakon_o_donacijama_u_javnom_sektoru.zip",
+     "sha256": "823a9e19acf2e25cdc45845fc6bce721f7117b250e85cf4e6d82bdf6a20c18a6"
+    }
+   ]
+  },
+  {
    "slug": "zakon-2007-sg030-4e7012",
    "path": "zakon/2007/sg030-4e7012",
    "short": "Закон о измјенама и допунама Закона о Центру за едукацију судија и јавних тужилаца у Републици Српској",

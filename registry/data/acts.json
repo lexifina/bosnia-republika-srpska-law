@@ -2,6 +2,23 @@
 "country": "BA-SRP",
 "acts": [
 {
+"slug": "zakon-2005-sg096-0c1810",
+"path": "zakon/2005/sg096-0c1810",
+"kind": "zakon",
+"year": "2005",
+"number": "sg096-0c1810",
+"withdrawn_by": null,
+"reason": null,
+"title": "Закон о донацијама у јавном сектору",
+"short": "Закон о донацијама у јавном сектору",
+"code": null,
+"status": "in force",
+"versions": 1,
+"from": "2005-11-04",
+"latest": "2005-11-04",
+"portal": "https://www.narodnaskupstinars.net/ci/akti/usvojeni-zakoni/zakon-o-donacijama-u-javnom-sektoru"
+},
+{
 "slug": "zakon-2007-sg030-4e7012",
 "path": "zakon/2007/sg030-4e7012",
 "kind": "zakon",

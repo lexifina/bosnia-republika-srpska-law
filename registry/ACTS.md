@@ -1,11 +1,12 @@
 # Every act in this repository
 
-340 acts, 340 versions. Each act lives in a folder named by its kind, year and identifier, `<kind>/<year>/<identifier>/` (acts published before that layout keep their own folder, listed in data/paths.json); its README.md lists its articles and the decisions made by hand. Dates are in-force days. Generated on every publish; the same list is in [data/acts.json](data/acts.json).
+341 acts, 341 versions. Each act lives in a folder named by its kind, year and identifier, `<kind>/<year>/<identifier>/` (acts published before that layout keep their own folder, listed in data/paths.json); its README.md lists its articles and the decisions made by hand. Dates are in-force days. Generated on every publish; the same list is in [data/acts.json](data/acts.json).
 
-## zakon (340)
+## zakon (341)
 
 | Act | Folder | Status | Versions | From | Latest |
 | --- | --- | --- | ---: | --- | --- |
+| Закон о донацијама у јавном сектору | [`zakon/2005/sg096-0c1810/`](zakon/2005/sg096-0c1810/) | in force | 1 | 2005-11-04 | 2005-11-04 |
 | Закон о измјенама и допунама Закона о Центру за едукацију судија и јавних тужилаца у Републици Српској | [`zakon/2007/sg030-4e7012/`](zakon/2007/sg030-4e7012/) | in force | 1 | 2007-04-28 | 2007-04-28 |
 | Закон о Енциклопедији Републике Српске | [`zakon/2007/sg038-6403e4/`](zakon/2007/sg038-6403e4/) | in force | 1 | 2007-05-24 | 2007-05-24 |
 | Закон о амблему Републике Српске | [`zakon/2007/sg049-9855e6/`](zakon/2007/sg049-9855e6/) | in force | 1 | 2007-06-16 | 2007-06-16 |
