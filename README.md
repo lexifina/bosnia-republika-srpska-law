@@ -1,5 +1,7 @@
 # Republika Srpska: law history in git
 
+Part of [lexifina/global-law](https://github.com/lexifina/global-law), one git history for every country's law: this is the law of Republika Srpska, Bosnia and Herzegovina, which global-law reads at `bosnia-and-herzegovina/republika-srpska/acts/`.
+
 The law of Republika Srpska, one of the two entities of Bosnia and Herzegovina, as a git history: one file per article, one commit per change, dated the day it took effect. `git log` lists every change to an article; checking out a date gives the text in force that day.
 
 It follows the shared design of [lexifina/global-law](https://github.com/lexifina/global-law), which places it at `ba-srp/`. The state's own law is in [lexifina/bosnia-and-herzegovina-law](https://github.com/lexifina/bosnia-and-herzegovina-law).
