@@ -1,0 +1,27 @@
+{
+ "note": "Update status of this repository, refreshed by every refresh run.",
+ "as_of": "2026-11-09T22:50:31+00:00",
+ "updates": "idle",
+ "last_published": "2026-11-06T21:17:23Z",
+ "published_last_24h": {
+  "commits": 0
+ },
+ "official_sources": [
+  {
+   "source": "JU Službeni glasnik Republike Srpske: Electronic Register of Regulations (eRP)",
+   "state": "available",
+   "last_successful_contact": "2026-11-09"
+  },
+  {
+   "source": "JU Službeni glasnik Republike Srpske: gazette issues and contents (online.slglasnik.org)",
+   "state": "available",
+   "last_successful_contact": "2026-11-09"
+  },
+  {
+   "source": "National Assembly of Republika Srpska: adopted laws (narodnaskupstinars.net)",
+   "state": "available",
+   "last_successful_contact": "2026-11-09"
+  }
+ ],
+ "appending_new_laws": "paused: the law texts are .zip files that the Assembly's robots.txt asks robots not to fetch; freshness checks continue"
+}

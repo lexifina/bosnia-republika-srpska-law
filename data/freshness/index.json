@@ -1,0 +1,136 @@
+{
+"shards": [
+{
+"shard": "ustav/undated",
+"kind": "ustav",
+"file": "data/freshness/ustav/undated.csv",
+"acts": 1
+},
+{
+"shard": "zakon/2005",
+"kind": "zakon",
+"file": "data/freshness/zakon/2005.csv",
+"acts": 1
+},
+{
+"shard": "zakon/2007",
+"kind": "zakon",
+"file": "data/freshness/zakon/2007.csv",
+"acts": 3
+},
+{
+"shard": "zakon/2008",
+"kind": "zakon",
+"file": "data/freshness/zakon/2008.csv",
+"acts": 7
+},
+{
+"shard": "zakon/2009",
+"kind": "zakon",
+"file": "data/freshness/zakon/2009.csv",
+"acts": 7
+},
+{
+"shard": "zakon/2010",
+"kind": "zakon",
+"file": "data/freshness/zakon/2010.csv",
+"acts": 7
+},
+{
+"shard": "zakon/2011",
+"kind": "zakon",
+"file": "data/freshness/zakon/2011.csv",
+"acts": 3
+},
+{
+"shard": "zakon/2012",
+"kind": "zakon",
+"file": "data/freshness/zakon/2012.csv",
+"acts": 19
+},
+{
+"shard": "zakon/2013",
+"kind": "zakon",
+"file": "data/freshness/zakon/2013.csv",
+"acts": 16
+},
+{
+"shard": "zakon/2014",
+"kind": "zakon",
+"file": "data/freshness/zakon/2014.csv",
+"acts": 10
+},
+{
+"shard": "zakon/2015",
+"kind": "zakon",
+"file": "data/freshness/zakon/2015.csv",
+"acts": 15
+},
+{
+"shard": "zakon/2016",
+"kind": "zakon",
+"file": "data/freshness/zakon/2016.csv",
+"acts": 15
+},
+{
+"shard": "zakon/2017",
+"kind": "zakon",
+"file": "data/freshness/zakon/2017.csv",
+"acts": 11
+},
+{
+"shard": "zakon/2018",
+"kind": "zakon",
+"file": "data/freshness/zakon/2018.csv",
+"acts": 18
+},
+{
+"shard": "zakon/2019",
+"kind": "zakon",
+"file": "data/freshness/zakon/2019.csv",
+"acts": 33
+},
+{
+"shard": "zakon/2020",
+"kind": "zakon",
+"file": "data/freshness/zakon/2020.csv",
+"acts": 17
+},
+{
+"shard": "zakon/2021",
+"kind": "zakon",
+"file": "data/freshness/zakon/2021.csv",
+"acts": 21
+},
+{
+"shard": "zakon/2022",
+"kind": "zakon",
+"file": "data/freshness/zakon/2022.csv",
+"acts": 17
+},
+{
+"shard": "zakon/2023",
+"kind": "zakon",
+"file": "data/freshness/zakon/2023.csv",
+"acts": 19
+},
+{
+"shard": "zakon/2024",
+"kind": "zakon",
+"file": "data/freshness/zakon/2024.csv",
+"acts": 31
+},
+{
+"shard": "zakon/2025",
+"kind": "zakon",
+"file": "data/freshness/zakon/2025.csv",
+"acts": 24
+},
+{
+"shard": "zakon/2026",
+"kind": "zakon",
+"file": "data/freshness/zakon/2026.csv",
+"acts": 47
+}
+]
+}
