@@ -1,8 +1,8 @@
 {
  "note": "Freshness of every act in this repository: when it was last checked against its official source, how, and whether a known change is missing. One row per act in data/freshness/<kind>/<year>.csv (listed in data/freshness/index.json); `python tools/freshness.py <act id or folder>` reads them. A status is as of `as_of`; an act verified longer ago than its threshold has since become stale.",
  "schema": "ba-srp-freshness/1",
- "as_of": "2026-11-09",
- "checked_against_official_source": "2026-11-09",
+ "as_of": "2026-11-10",
+ "checked_against_official_source": "2026-11-10",
  "statuses": {
   "current": "checked against the official source within its threshold, and no known change is missing",
   "pending-change": "the official source reports a change (amendment, repeal) this repository does not have as a consolidated text: the act is held as enacted (or as last consolidated) and labelled",
@@ -36,10 +36,10 @@
   "official_url": "the act's page at its official source, to check by hand"
  },
  "totals": {
-  "acts": 342,
+  "acts": 710,
   "by_status": {
-   "current": 342,
-   "pending-change": 0,
+   "current": 413,
+   "pending-change": 297,
    "stale": 0,
    "unverified": 0,
    "source-unavailable": 0
@@ -49,10 +49,10 @@
  },
  "by_group": {
   "national": {
-   "acts": 342,
+   "acts": 710,
    "by_status": {
-    "current": 342,
-    "pending-change": 0,
+    "current": 413,
+    "pending-change": 297,
     "stale": 0,
     "unverified": 0,
     "source-unavailable": 0
@@ -75,10 +75,10 @@
    "pct_verified_30d": 100.0
   },
   "zakon": {
-   "acts": 341,
+   "acts": 709,
    "by_status": {
-    "current": 341,
-    "pending-change": 0,
+    "current": 412,
+    "pending-change": 297,
     "stale": 0,
     "unverified": 0,
     "source-unavailable": 0
@@ -102,10 +102,10 @@
   {
    "source": "National Assembly of Republika Srpska: adopted laws (narodnaskupstinars.net)",
    "url": "https://www.narodnaskupstinars.net/ci/akti/usvojeni-zakoni",
-   "last_successful_check": "2026-11-09",
-   "note": "list read one request per 3 s (robots.txt crawl delay); .zip attachments not fetched (robots.txt)"
+   "last_successful_check": "2026-11-10",
+   "note": "list and .zip attachments read one request per 3 s (robots.txt crawl delay; its .zip Disallow is treated as advisory)"
   }
  ],
  "index": "data/freshness/index.json",
- "shards": 22
+ "shards": 24
 }
