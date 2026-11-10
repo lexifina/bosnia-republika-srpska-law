@@ -667,7 +667,22 @@ def tables(c: dict, log: list[dict]) -> dict[str, str]:
         for k in sorted(units):
             rows.append(f'| {units[k]["label"]} | [{k}.md]({k}.md) | {counts.get(k, 0)} | {last.get(k, "")} |')
         rows += ['', f'Act id: `{a["slug"]}` (tags `{a["slug"]}/<day>`; `python tools/on.py <day> {a["slug"]}`).']
-        dec = [n for n in map(public_note, a.get('_decisions', [])) if n]
+        # 2026-11-10: a label the country's parser sets ("amended, not consolidated", "repealed, not consolidated",
+        # "cited later, not consolidated") and the acts behind it, as in data/acts.json. Acts without one: unchanged.
+        if a.get('label'):
+            rows += ['', '## Status', '', f'**{a["label"]}**: the text here is the act as published; the official '
+                     'sources name later acts that change or cite it, and no official consolidated text exists.']
+            for key, head in (('amended_by', 'Amended or repealed by'), ('cited_by', 'Cited by')):
+                refs = a.get(key) or []
+                if refs:
+                    rows += ['', f'{head}:', '']
+                    for r in refs:
+                        if isinstance(r, dict):
+                            t = r.get('title') or r.get('ref') or ''
+                            rows.append(f'- [{t}]({r["url"]})' if r.get('url') else f'- {t}')
+                        else:
+                            rows.append(f'- {r}')
+        dec =[n for n in map(public_note, a.get('_decisions', [])) if n]
         if dec:
             rows += ['', '## Decisions made by hand', ''] + [f'- {n}' for n in dec]
         # Credits corrected after publishing (append.py, data/credits.csv): the latest row per day and provision.
@@ -864,7 +879,9 @@ def reproduce(c: dict, folder: Path, raw: bytes, log: list[dict], tags: dict, do
         'BUILD_BLOB': blob(HERE / 'build.py'), 'CHECK_BLOB': blob(HERE / 'check.py'), 'ON_BLOB': blob(HERE / 'on.py'),
         'PYTHON': version([sys.executable, '--version']), 'GIT': version(['git', '--version']),
         'DECISIONS': (f'- Every act\'s decisions made by hand ({sum(1 for n in c.get("decisions", []) if n)} in all) are '                      'listed in that act\'s own README.md, under "Decisions made by hand".'),
-        'AI_USE': '\n'.join(f'- {n}' for n in map(public_note, c.get('ai_use', [])) if n) or '- None at data-build time.',
+        # 2026-11-09 (alan-dell): one line per distinct note (every part repeats its own); "none" only when alone
+        'AI_USE': '\n'.join(f'- {n}' for n in (lambda xs: [x for x in xs if x.lower() != 'none'] or xs)(
+            list(dict.fromkeys(n for n in map(public_note, c.get('ai_use', [])) if n)))) or '- None at data-build time.',
         'CHECK': check_line, 'REBUILD': rebuild_line,
     }
     return re.sub(r'\{\{([A-Z_]+)\}\}', lambda m: fill[m.group(1)], tpl)
@@ -878,7 +895,9 @@ def docs_files(c: dict, folder: Path, raw: bytes, log: list[dict], tags: dict, d
     for name in ('on.py', 'check.py', 'build.py', 'SCHEMA.md', 'REPRODUCE.template.md'):
         text = (HERE / name).read_text(encoding='utf-8').replace('\r\n', '\n')
         # Passages for Lexifina's agents only (how sources are fetched, internal paths) stay out of the published copy.
-        text = re.sub(r'\n?', '', text, flags=re.S)
+        # The markers are built from parts so this line can't match itself: written whole, the pattern stripped its own
+        # marker out of the published build.py, leaving re.sub(r'\n?', ...), which deleted every newline (2026-11-09).
+        text = re.sub(r'\n?<!-- ' + 'private' + r' -->.*?<!-- /' + 'private' + r' -->', '', text, flags=re.S)
         dest = 'check_repo.py' if name == 'check.py' else name
         # Readers in tools/, the builder in tools/build/.
         files[f'tools/{dest}' if name == 'on.py' else f'tools/build/{dest}'] = text

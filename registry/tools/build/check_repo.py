@@ -41,8 +41,10 @@ def commits_by_act(repo: Path, branch: str, act: str) -> list[tuple[str, str]]:
 def act_dirs(repo: Path, slugs: list[str], ref: str = 'main') -> dict[str, list[str]]:
     """{slug: [folders]}: the folder the act lives in now (data/paths.json, written by the layout move) first, then the
     slug, its folder before the move. Old commits keep the old folder, so every reader looks in both."""
+    import os
+    # 2026-11-09 (alan-dell): a foreign-repo build keeps its indexes under GITLAW_DOCS_PREFIX (croatia: registry/).
     try:
-        paths = json.loads(git(repo, 'show', f'{ref}:data/paths.json')).get('paths', {})
+        paths = json.loads(git(repo, 'show', f'{ref}:{os.environ.get("GITLAW_DOCS_PREFIX", "")}data/paths.json')).get('paths', {})
     except (SystemExit, Exception):
         paths = {}
     return {s: list(dict.fromkeys([paths.get(s, s), s])) for s in slugs}
