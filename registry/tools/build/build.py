@@ -666,7 +666,7 @@ def tables(c: dict, log: list[dict]) -> dict[str, str]:
                 '| Provision | File | Changes | Last changed |', '| --- | --- | ---: | --- |']
         for k in sorted(units):
             rows.append(f'| {units[k]["label"]} | [{k}.md]({k}.md) | {counts.get(k, 0)} | {last.get(k, "")} |')
-        rows += ['', f'Act id: `{a["slug"]}` (tags `{a["slug"]}/<day>`; `python tools/on.py <day> {a["slug"]}`).']
+        rows += ['', f'Act id: `{a["slug"]}` (tags `{a["slug"]}/<day>`; `python {os.environ.get("GITLAW_DOCS_PREFIX", "")}tools/on.py <day> {a["slug"]}`).']
         # 2026-11-10: a label the country's parser sets ("amended, not consolidated", "repealed, not consolidated",
         # "cited later, not consolidated") and the acts behind it, as in data/acts.json. Acts without one: unchanged.
         if a.get('label'):
@@ -848,8 +848,11 @@ def reproduce(c: dict, folder: Path, raw: bytes, log: list[dict], tags: dict, do
     n_start = sum(1 for e in log if e['kind'] == 'start')
     n_future = sum(1 for e in log if e['branch'] != 'main')
     n_clamped = sum(1 for e in log if e['clamped'])
-    src_rows = '\n'.join(f'| {public_note(s.get("name", ""))} | <{s.get("url", "")}> | {s.get("retrieved", "")} | '
-                         f'{public_note(s.get("licence", ""))} |' for s in c.get('sources', []))
+    # 2026-11-10: one row per distinct source (every corpus part repeats its own, so a corpus of many parts listed the
+    # same row once per part)
+    src_rows = '\n'.join(dict.fromkeys(f'| {public_note(s.get("name", ""))} | <{s.get("url", "")}> | '
+                                       f'{s.get("retrieved", "")} | {public_note(s.get("licence", ""))} |'
+                                       for s in c.get('sources', [])))
     act_rows = (f'| {len(c["acts"])} acts | every act, with its kind, number, status and span, is listed in '
                 f'[ACTS.md](ACTS.md) | {sum(len(a["versions"]) for a in c["acts"])} | |')
     # A check or second build counts only for the corpus it ran on: a main build (verified parts only) must not quote

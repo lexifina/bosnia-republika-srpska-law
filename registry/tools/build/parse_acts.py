@@ -24,7 +24,14 @@ that gazette issue's table of contents, in the text of the Assembly's file of th
 President), as one version in force on the day its own final article names, counted from the gazette issue date
 ("осмог дана од дана објављивања" = issue date + 8). The signature block below the text is cut.
 
-An act is held back, not published (the reason is written to the report), when:
+2026-11-10 (romania-law standard): a law the sources report as changed later (the register, gazette titles, later
+law texts or a court ruling, as listed below) is no longer held: it is published as enacted with "label"
+("amended, not consolidated", or "repealed, not consolidated" when the register no longer lists it, records it as
+not in force, or a later text repeals it) and "amended_by" ({ref, title, published, url}); labelled.jsonl beside the
+report lists them. A later law citing an amending law is not a change. The rules below that are about later changes
+now label instead of hold; the others still hold.
+
+Before 2026-11-10, an act was held back, not published (the reason is written to the report), when:
 - the register has no record of it at its gazette issue, or records it as no longer in force, or lists an act
   related to it (an amendment) published on or after it, or gives another publication day;
 - a later title in any gazette issue's contents amends, repeals or corrects it (Закон о измјенама/допунама ... Закона
@@ -63,6 +70,13 @@ from pathlib import Path
 HERE = Path(__file__).resolve().parent
 PARTS = HERE / "corpus.d"
 NSRS = "https://www.narodnaskupstinars.net"
+ERP_PAGE = "https://erp.slglasnik.org/"
+
+
+def erp_ref(x: dict) -> str:
+    n = str(x.get("sluzbeniGlasnikBroj") or "").strip()
+    n = str(int(n)) if n.isdigit() else n
+    return f"{n}/{str(x.get('sluzbeniGlasnikGodina') or '')[2:]}"
 CYR = dict(zip("абвгдђежзијклљмнњопрстћуфхцчџшАБВГДЂЕЖЗИЈКЛЉМНЊОПРСТЋУФХЦЧЏШ",
                ["a", "b", "v", "g", "d", "đ", "e", "ž", "z", "i", "j", "k", "l", "lj", "m", "n", "nj", "o", "p", "r",
                 "s", "t", "ć", "u", "f", "h", "c", "č", "dž", "š",
@@ -729,8 +743,11 @@ def main():
             found = []
             # each sentence of the ruling that finds provisions unconstitutional or ends them: the laws it cites
             for sent in re.split(r"(?<=[a-zčćžšđ)\"])\.\s+(?=[A-ZČĆŽŠĐ])", operative):
-                if re.search(r"\bni(?:je|su)\s+u\s+saglasnosti|\bprestaj[eu]\s+(?:da\s+)?važi|\bukida(?:ju)?\s+se\b", sent):
-                    for m in CITE.finditer(sent):
+                v = re.search(r"\bni(?:je|su)\s+u\s+saglasnosti|\bprestaj[eu]\s+(?:da\s+)?važi|\bukida(?:ju)?\s+se\b", sent)
+                if v:
+                    # 2026-11-10: only a law named before the finding is the act found unconstitutional; one named
+                    # after it ("... is not in accordance with the Constitution and the Law on X") is the yardstick
+                    for m in CITE.finditer(sent[:v.start()]):
                         for n_, y_ in issues_in(m.group(3)):
                             found.append(["zakon:" + subject(m.group(2)), n_, y_])
         new_cache[ck] = found
@@ -760,7 +777,9 @@ def main():
         try:
             register[(int(d["sluzbeniGlasnikBroj"]), int(d["sluzbeniGlasnikGodina"]))].append(
                 {"title": d["naslov"], "status": d.get("statusPropisa"), "published": d.get("datumObjave"),
-                 "related": [(x.get("datumObjave") or "", x.get("naslov", "")) for x in rel], "derived": False})
+                 "related": [(x.get("datumObjave") or "", x.get("naslov", "")) for x in rel], "derived": False,
+                 "related_refs": [{"ref": erp_ref(x), "title": norm(x.get("naslov", "")), "published": x.get("datumObjave"),
+                                   "url": ERP_PAGE + x["eli"] if x.get("eli") else None} for x in rel]})
         except (KeyError, ValueError):
             pass
         for x in rel:
@@ -800,7 +819,37 @@ def main():
         first = min(x["src_id"] for x in g if x["src_id"] in texts)
         return None if r["src_id"] == first else "duplicate_listing:" + first[-60:]
 
+    def gz_ref(k2: tuple, t: str, d: str) -> dict:
+        slug_ = issues[k2]["slug"] if k2 in issues else None
+        return {"ref": f"{k2[0]}/{str(k2[1])[2:]}", "title": fix_homoglyphs(norm(t)), "published": d,
+                "url": f"https://online.slglasnik.org/sr/propisi/{slug_}" if slug_ else None}
+
+    def named_refs(subj_: str, own_: tuple, pub_: str, prefix: int) -> list:
+        out_ = []
+        for k2, rows_ in toc.items():
+            d2 = issues[k2]["date"]
+            if d2 < pub_ or k2 == own_:
+                continue
+            for h_, t_ in rows_:
+                tg_ = target(t_)
+                if tg_ and (tg_[0] == subj_ or similar(tg_[0], subj_, prefix)) and (not tg_[1] or own_ in tg_[1]):
+                    out_.append(gz_ref(k2, t_, d2))
+        return out_
+
+    def same_refs(subj_: str, own_: tuple, pub_: str) -> list:
+        out_ = []
+        for k2, rows_ in toc.items():
+            d2 = issues[k2]["date"]
+            if d2 < pub_ or k2 == own_:
+                continue
+            for h_, t_ in rows_:
+                s_ = own_subject(t_)
+                if s_ and not target(t_) and (s_ == subj_ or similar(s_, subj_, 50)):
+                    out_.append(gz_ref(k2, t_, d2))
+        return out_
+
     holds = []
+    labelled = []
     parts: dict[int, dict] = defaultdict(lambda: {"laws": {}, "acts": []})
     seen = set()
     for r in sorted(laws, key=lambda x: (x["gdate"] or "", x["src_id"])):
@@ -846,21 +895,33 @@ def main():
                 raise Hold("title_mismatch:" + text_title[:100])
             # the register's record of it: in force, never amended since, same publication day
             recs = [x for x in register.get(own, []) if same_title(x["title"], title)]
+            # 2026-11-10 (romania-law standard): a law changed later is published as enacted and labelled, not held.
+            changed, gone, by = [], False, []
             if not recs:
-                raise Hold("not_in_register")
-            if any(x["status"] != "Aktivan" for x in recs):
-                raise Hold("register_not_in_force")
+                gone = True
+                changed.append("not_in_register")
+            elif any(x["status"] != "Aktivan" for x in recs):
+                gone = True
+                changed.append("register_not_in_force")
             if any(x["published"] and x["published"] != pub for x in recs):
                 raise Hold("register_date_differs:" + ",".join(sorted({x["published"] for x in recs if x["published"]})))
             later_rel = sorted({d for x in recs for d, t in x["related"] if d >= pub or not d})
             if later_rel:
-                raise Hold("register_amended:" + ",".join(later_rel[:3]))
+                changed.append("register_amended:" + ",".join(later_rel[:3]))
+                seen_ref = set()
+                for x in recs:
+                    for rr in x.get("related_refs", []):
+                        if (rr["published"] or "") >= pub and rr["ref"] not in seen_ref:
+                            seen_ref.add(rr["ref"])
+                            by.append(rr)
             if adopted and not (adopted <= pub <= (date.fromisoformat(adopted) + timedelta(days=180)).isoformat()):
                 raise Hold(f"adoption_day_inconsistent:{adopted}")
             tg = target(title)
             subj = own_subject(title)
             own_key = "zakon:" + subject(re.sub(r"^(?:закон|zakon)\s+(?:о|o)\s+", "", lat(title), flags=re.I))
-            ear = [d for d in early.get(own_key, []) if d >= pub]
+            # a decision on early entry into force concerns this law only within its own eight days (a later one of
+            # the same title concerns a later amending law of that name, 2026-11-10)
+            ear = [d for d in early.get(own_key, []) if pub <= d <= (date.fromisoformat(pub) + timedelta(days=8)).isoformat()]
             if ear:
                 raise Hold("early_entry_into_force_decision:" + ",".join(sorted(set(ear))[:3]))
             if tg:
@@ -872,38 +933,40 @@ def main():
                          if d >= pub and k2 != own and s2.split(":", 1)[1].startswith(own_name.split(":", 1)[1][:60])
                          and (not iss or own in iss)]
                 if again:
-                    raise Hold("amending_law_named_later:" + ",".join(sorted(set(again))[:3]))
-                own_cites = [c for s2, lst in cites_at.get(own, ()) if re.match(r"^zakon:(?:izmj?en|dopun)", s2)
-                             and ts.split(":", 1)[1][:40] in s2 for c in lst if c[2] != r["src_id"] and c[0] >= pub]
-                if own_cites:
-                    raise Hold("amending_law_cited_later:" + ",".join(sorted({c[0] for c in own_cites})[:3]))
+                    changed.append("amending_law_named_later:" + ",".join(sorted(set(again))[:3]))
+                    by += named_refs(own_name, own, pub, prefix=60)
+                # (a later law citing this amending law, e.g. when the principal law is amended again, does not
+                # change the amending law's own text: not a change, 2026-11-10)
                 # a ruling citing this amending law, or its principal law with this law's issue among its issues
                 hit = [cs for s2, cs in struck_at.get(own, ())
-                       if (s2 == own_name or similar(s2, ts, 60))]
+                       if s2 == own_name]  # a ruling on the principal law does not change this amending law (2026-11-10)
                 if hit:
-                    raise Hold("court_struck:" + ",".join(sorted({x for h in hit for x in h})[:3]))
+                    changed.append("court_struck:" + ",".join(sorted({x for h in hit for x in h})[:3]))
             else:
                 if not subj:
                     raise Hold("title_form")
                 later = [d for s2, lst in named.items() if s2 == subj or similar(s2, subj, 50)
                          for d, k2, iss in lst if d >= pub and (not iss or own in iss)]
                 if later:
-                    raise Hold("named_as_amended:" + ",".join(sorted(set(later))[:3]))
+                    changed.append("named_as_amended:" + ",".join(sorted(set(later))[:3]))
+                    by += named_refs(subj, own, pub, prefix=50)
                 again = [d for s2, lst in same.items() if s2 == subj or similar(s2, subj, 50) for d, k2 in lst
                          if d >= pub and k2 != own]
                 if again:
-                    raise Hold("same_name_later:" + ",".join(sorted(set(again))[:3]))
+                    changed.append("same_name_later:" + ",".join(sorted(set(again))[:3]))
+                    by += same_refs(subj, own, pub)
                 by_cite = [c for s2, lst in cites_at.get(own, ()) if similar(s2, subj, 40)
                            for c in lst if c[2] != r["src_id"] and c[0] >= pub and c[3] > 0]
                 if by_cite:
-                    raise Hold("cited_later:" + ",".join(sorted({c[0] for c in by_cite})[:3]))
+                    changed.append("cited_later:" + ",".join(sorted({c[0] for c in by_cite})[:3]))
                 by_rep = [c for s2, lst in cites_at.get(own, ()) if similar(s2, subj, 40)
                           for c in lst if c[2] != r["src_id"] and c[0] >= pub and c[4]]
                 if by_rep:
-                    raise Hold("repealed_later:" + ",".join(sorted({c[0] for c in by_rep})[:3]))
+                    gone = True
+                    changed.append("repealed_later:" + ",".join(sorted({c[0] for c in by_rep})[:3]))
                 hit = [cs for s2, cs in struck_at.get(own, ()) if similar(s2, subj, 40)]
                 if hit:
-                    raise Hold("court_struck:" + ",".join(sorted({x for h in hit for x in h})[:3]))
+                    changed.append("court_struck:" + ",".join(sorted({x for h in hit for x in h})[:3]))
             day, how = in_force(units, pub, adopted)
         except Hold as h:
             holds.append({**rec, "reason": str(h)})
@@ -925,7 +988,23 @@ def main():
         if re.search(r"primjenj\w+\s+(?:će\s+se\s+)?(?:se\s+)?(?:od|počev)",
                      lat(" ".join(u["text"] for u in units.values() if u["kind"] == "art"))[-600:]):
             note = "Његов завршни члан одређује и посебан дан примјене."
+        lab = {}
+        if changed:
+            uniq, seen_r = [], set()
+            # one entry per act: the register's record (its eRP link) before the gazette issue's contents line
+            for rr in sorted(by, key=lambda x: (x.get("published") or "", x.get("ref") or "",
+                                                 0 if "erp.slglasnik" in (x.get("url") or "") else 1, x.get("title") or "")):
+                k_ = (rr.get("ref"), re.sub(r"\W+", "", lat(rr.get("title") or "").lower())[:60])
+                # (the acts that change one law in one issue are one act in practice: one entry per issue)
+                if not any(k_[0] == q[0] for q in seen_r):
+                    seen_r.add(k_)
+                    uniq.append(rr)
+            lab = {"label": "repealed, not consolidated" if gone else "amended, not consolidated",
+                   **({"amended_by": uniq} if uniq else {})}
+            labelled.append({**rec, "slug": slug, "label": lab["label"], "reasons": changed,
+                             "amended_by": [x.get("ref") for x in uniq]})
         p["acts"].append({"slug": slug, "short": nice, "title": nice, "url": url, "first_law": slug, "earlier_laws": [],
+                          **lab,
                           "versions": [{"from": day, "source_url": NSRS + r["files"][0], "sha256": fr["sha256"],
                                         "units": units, "credits": {}, **({"note": note} if note else {})}]})
         p.setdefault("_retrieved", set()).add(fr.get("retrieved"))
@@ -954,7 +1033,9 @@ def main():
              "url": NSRS + "/ci/akti/usvojeni-zakoni", "retrieved": max(x for x in ret if x),
              "licence": "Official texts of laws; not protected by copyright",
              "notes": "Each adopted law's Cyrillic text from the Assembly's attachment (Word file), with the gazette "
-                      "number the Assembly lists."},
+                      "number the Assembly lists. The site's robots.txt asks robots not to fetch .zip files and to wait "
+                      "3 s between requests; Lexifina reads it as advisory: the attachments are fetched one request "
+                      "every 3 s (no more than 2 a second on the other hosts), backing off on errors."},
             {"name": "JU Službeni glasnik Republike Srpske: Pregled (online.slglasnik.org)",
              "url": "https://online.slglasnik.org/sr/pregled", "retrieved": max(x for x in ret if x),
              "licence": "Official gazette metadata",
@@ -973,12 +1054,16 @@ def main():
             "The law must be listed in the contents of the gazette issue the Assembly names; its one version takes "
             "effect on the day its own final article names, counted from that issue's date as the gazette publisher "
             "gives it (\"осмог дана од дана објављивања\" = issue date + 8); a separate day of application is only noted.",
-            "A law is published only when the gazette publisher's register (eRP) records it at that issue, in force, "
-            "with no related act published on or after it and the same publication day.",
-            "A law is published only when no later title in the gazette's contents amends, repeals, corrects or "
-            "re-enacts it (a law of the same name), no later Assembly law text cites it with later gazette numbers or "
-            "repeals it, and no Constitutional Court decision's ruling strikes it; an amending law only when no later "
-            "title or law text names the amending law itself and no court ruling strikes it.",
+            "Every law is published as enacted. A law the official sources report as changed later is labelled "
+            "\"amended, not consolidated\" and names the changing acts (amended_by): the gazette publisher's register "
+            "(eRP) lists a related act published on or after it, a later title in the gazette's contents amends, "
+            "corrects or re-enacts it, a later Assembly law text cites it with later gazette numbers, or a "
+            "Constitutional Court ruling strikes provisions of it. It is labelled \"repealed, not consolidated\" when "
+            "the register records it as no longer in force or no longer lists it, or a later law text repeals it. "
+            "An amending law is labelled only when a later title names the amending law itself or a ruling strikes it; "
+            "a later law citing it does not change its text. No consolidated text is made.",
+            "A law is held back when the register gives it another publication day, a decision brings its entry into "
+            "force forward, or its text does not read cleanly (see the holds report).",
             "Articles follow the headings \"Члан N.\" outside quotation marks; the short centred line above a heading is "
             "its caption and is printed under it; upper-case lines between articles are headings.",
             "Titles and texts of later laws are compared in Latin transliteration (matching only); every text keeps its "
@@ -990,7 +1075,7 @@ def main():
         p["ai_use"] = ["none"]
         f = out_dir / f"40-zakoni-{year}.json"
         write(f, p, "Parsed from the National Assembly's adopted-law files and the gazette's contents; one version, as "
-                    "published; held back: laws named as amended, re-enacted, cited later or struck (parse_acts.py).")
+                    "published; laws changed later are labelled amended or repealed, not consolidated (parse_acts.py).")
         written.append((f.name, len(p["acts"])))
     keep = {n for n, _ in written}
     for old in out_dir.glob("40-zakoni-*.json"):
@@ -1003,12 +1088,14 @@ def main():
         tmp.replace(a.cache)
     if a.report:
         Path(a.report).write_text("".join(json.dumps(h, ensure_ascii=False) + "\n" for h in holds), encoding="utf-8")
+        Path(a.report).with_name("labelled.jsonl").write_text(
+            "".join(json.dumps(h, ensure_ascii=False) + "\n" for h in labelled), encoding="utf-8")
     reasons = defaultdict(int)
     for h in holds:
         reasons[h["reason"].split(":")[0]] += 1
     print(json.dumps({"laws_seen": len(laws), "texts": len(texts), "court_complete": court_complete,
                       "gazette_complete_from": sg_complete_from, "texts_complete_from": ns_complete_from,
-                      "published": sum(n for _, n in written), "held": len(holds),
+                      "published": sum(n for _, n in written), "held": len(holds), "labelled": len(labelled),
                       "held_by_reason": dict(sorted(reasons.items(), key=lambda x: -x[1])), "parts": written},
                      ensure_ascii=False))
 
