@@ -22,7 +22,7 @@ Every law is listed, with its status, in [registry/ACTS.md](registry/ACTS.md) an
 Every version names the official page it was read from (the commit's `Source:` and `Consolidated:` trailers; `portal` in registry/data/acts.json), so every act can be checked against its source.
 
 <!-- freshness-summary -->
-Checked against the official sources: 2026-11-10; 100% of acts verified in the last 7 days, 100% in the last 30 ([data/freshness.json](data/freshness.json)).
+Checked against the official sources: 2026-11-11; 100% of acts verified in the last 7 days, 100% in the last 30 ([data/freshness.json](data/freshness.json)).
 <!-- /freshness-summary -->
 
 `python tools/freshness.py <act>` gives an act's status, its last check and the official link; `python tools/freshness.py --summary` the overall picture. An act is checked by reading its record in the gazette publisher's Electronic Register of Regulations (eRP, <https://erp.slglasnik.org/>): whether it is still in force and which later acts amend, correct or repeal it. The check runs daily and re-reads every act within 7 days; [data/status.json](data/status.json) says whether updates are running and when each official source last answered. Statuses (`current`, `pending-change`, `stale`, `unverified`, `source-unavailable`) and columns are explained in [data/freshness.json](data/freshness.json); a labelled act is `pending-change`.
