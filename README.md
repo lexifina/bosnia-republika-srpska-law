@@ -52,7 +52,19 @@ New laws are fetched and appended by the same daily run. The National Assembly's
 - Each law's in-force day is read again from its final article and the gazette issue date, and its publication day compared with the gazette publisher's.
 - Every paragraph of the Constitution is found, in order, in the source PDF as read by a second, independent PDF reader; the only differences are footnote markers.
 - Health checks: no merge commits, commit dates never go backwards, nothing dated in the future, and every commit's trailers parse.
+- [vulnerabilities/](vulnerabilities/): possible drafting mistakes in Republika Srpska law, found by global-law's detectors and checked by hand (a placeholder: the detectors have not been run here yet).
 
 ## Limits
 
 This is not an official publication. The binding text is the one published in Службени гласник Републике Српске. The consolidated text of the Constitution has no official force of its own, and its history starts with the oldest version available. Laws are held as enacted; amendments are named, not applied. Laws before the National Assembly's list begins (December 2003) have no free official text and are not here; data/held.json lists them.
+
+## Visualisations
+
+[visualisations/](visualisations/): charts of Republika Srpska law drawn from this repository. A placeholder for now: no charts have been drawn yet.
+
+## More
+
+From [lexifina/global-law](https://github.com/lexifina/global-law):
+
+- [visualisations/](https://github.com/lexifina/global-law/tree/main/visualisations): charts and bridges across the world's law
+- [Vulnerabilities](https://github.com/lexifina/global-law/tree/main/vulnerabilities): mistakes in legislation as published
