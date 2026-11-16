@@ -13,7 +13,7 @@ The text is in Serbian, in Cyrillic script, exactly as the National Assembly pub
 | Folder | Act | Versions | History |
 | --- | --- | ---: | --- |
 | `ustav/` | Устав Републике Српске (Constitution of Republika Srpska) | 1 | current text only: the oldest version available |
-| `zakon/<year>/sg<issue>-<id>/` | Laws of the National Assembly, as adopted and published in Службени гласник Републике Српске, 2004 onwards | 1 each | as enacted |
+| `zakon/<year>/sg<issue>-<id>/` | Laws of the National Assembly, as adopted and published in Службени гласник Републике Српске, 2004 onwards, with the codes (Кривични законик, Закон о кривичном поступку, Породични закон, Закон о раду, Закон о привредним друштвима, Закон о стварним правима) | 1 each | as enacted; Закон о раду 2000-2007 as the Legislative Committee's consolidated text of 2007 (oldest version available) |
 
 Every law is listed, with its status, in [registry/ACTS.md](registry/ACTS.md) and [registry/data/acts.json](registry/data/acts.json); [registry/REPRODUCE.md](registry/REPRODUCE.md) says how they were built. Each law is held as enacted: a law amended since is labelled `amended, not consolidated` and names the amending acts (`amended_by` in acts.json), and one the register records as no longer in force, or no longer lists, is labelled `repealed, not consolidated`. Neither has a consolidated text here.
 
